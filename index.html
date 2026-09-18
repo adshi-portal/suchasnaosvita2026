@@ -1,59 +1,80 @@
-<title id="pageTitle">РќРњРўР—-2026</title>
+<title id="pageTitle">Сучасна освіта 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   /* ============ TOKENS ============ */
   :root{
-    --bg:#EEF0F4;
-    --surface:#FFFFFF;
-    --surface-2:#F3F4F9;
-    --ink:#181B29;
-    --ink-soft:#474C63;
-    --ink-faint:#7A7F97;
-    --line:#D7D9E6;
-    --line-strong:#B7BBD4;
-    --accent:#4B3FD1;
-    --accent-ink:#332793;
-    --accent-soft:#E4E1FA;
-    --teal:#0E7C86;
-    --teal-ink:#0A5D65;
-    --teal-soft:#DCEFF1;
-    --good:#227A54;
-    --good-soft:#DFF1E7;
-    --warn:#A9660F;
-    --warn-soft:#F5E7CE;
+    --bg:#EEECE2;
+    --surface:#FBFAF5;
+    --surface-2:#F2F0E6;
+    --ink:#1E2A38;
+    --ink-soft:#4B5768;
+    --ink-faint:#7C8698;
+    --line:#CFC9B6;
+    --line-strong:#B7AF97;
+    --accent:#1F5FA8;
+    --accent-ink:#0F3E75;
+    --accent-soft:#DCE7F4;
+    --gold:#A9781F;
+    --gold-soft:#F1E4C4;
+    --good:#2E7D4F;
+    --good-soft:#DFEEE2;
+    --warn:#B5701A;
+    --warn-soft:#F6E6CC;
     --danger:#B23A3A;
     --danger-soft:#F5DEDE;
-    --shadow: 0 1px 2px rgba(20,20,40,.06), 0 10px 26px -14px rgba(20,20,40,.22);
+    --shadow: 0 1px 2px rgba(30,42,56,.06), 0 8px 24px -12px rgba(30,42,56,.18);
     --radius:10px;
     --font-display:'Fraunces', ui-serif, Georgia, serif;
-    --font-body:'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
-    --font-mono:'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    --font-body:'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+    --font-mono:'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#0E1020; --surface:#171A33; --surface-2:#12142A;
-      --ink:#E7E7F2; --ink-soft:#B7B9D6; --ink-faint:#8388AC;
-      --line:#2B2F52; --line-strong:#3C4270;
-      --accent:#8B84F0; --accent-ink:#C9C5FA; --accent-soft:#231F55;
-      --teal:#4FC2CC; --teal-ink:#B9EDF1; --teal-soft:#0F3238;
-      --good:#7FD1A6; --good-soft:#123524;
-      --warn:#E7B45E; --warn-soft:#3A2C12;
-      --danger:#E28787; --danger-soft:#3A1E1E;
-      --shadow: 0 1px 2px rgba(0,0,0,.35), 0 14px 30px -16px rgba(0,0,0,.65);
+      --bg:#0E1826;
+      --surface:#152234;
+      --surface-2:#101B2A;
+      --ink:#E9E6DA;
+      --ink-soft:#B7C0CE;
+      --ink-faint:#7F8CA0;
+      --line:#2B3B52;
+      --line-strong:#3B4E69;
+      --accent:#7EAEE0;
+      --accent-ink:#BEDAF5;
+      --accent-soft:#1C324E;
+      --gold:#E0B255;
+      --gold-soft:#3A3016;
+      --good:#7ECB9B;
+      --good-soft:#173325;
+      --warn:#E5B15C;
+      --warn-soft:#3A2C11;
+      --danger:#E28787;
+      --danger-soft:#3A1E1E;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 28px -14px rgba(0,0,0,.6);
     }
   }
   :root[data-theme="dark"]{
-    --bg:#0E1020; --surface:#171A33; --surface-2:#12142A;
-    --ink:#E7E7F2; --ink-soft:#B7B9D6; --ink-faint:#8388AC;
-    --line:#2B2F52; --line-strong:#3C4270;
-    --accent:#8B84F0; --accent-ink:#C9C5FA; --accent-soft:#231F55;
-    --teal:#4FC2CC; --teal-ink:#B9EDF1; --teal-soft:#0F3238;
-    --good:#7FD1A6; --good-soft:#123524;
-    --warn:#E7B45E; --warn-soft:#3A2C12;
-    --danger:#E28787; --danger-soft:#3A1E1E;
-    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 14px 30px -16px rgba(0,0,0,.65);
+    --bg:#0E1826;
+    --surface:#152234;
+    --surface-2:#101B2A;
+    --ink:#E9E6DA;
+    --ink-soft:#B7C0CE;
+    --ink-faint:#7F8CA0;
+    --line:#2B3B52;
+    --line-strong:#3B4E69;
+    --accent:#7EAEE0;
+    --accent-ink:#BEDAF5;
+    --accent-soft:#1C324E;
+    --gold:#E0B255;
+    --gold-soft:#3A3016;
+    --good:#7ECB9B;
+    --good-soft:#173325;
+    --warn:#E5B15C;
+    --warn-soft:#3A2C11;
+    --danger:#E28787;
+    --danger-soft:#3A1E1E;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 28px -14px rgba(0,0,0,.6);
   }
 
   *{box-sizing:border-box;}
@@ -74,20 +95,22 @@
   :focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
   [hidden]{display:none!important;}
 
-  /* faint node-field texture, evoking a neural-network graph */
+  /* background blueprint-grid texture on page ground */
   .grid-ground{
-    background-image:radial-gradient(var(--line-strong) 1.3px, transparent 1.3px);
-    background-size:26px 26px;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:32px 32px;
     background-position:center top;
-    opacity:.55;
+    opacity:.35;
     position:fixed; inset:0; z-index:0; pointer-events:none;
-    mask-image:linear-gradient(to bottom, black, transparent 640px);
+    mask-image:linear-gradient(to bottom, black, transparent 700px);
   }
 
   /* ============ HEADER / NAV ============ */
   header.site{
     position:sticky; top:0; z-index:50;
-    background:color-mix(in srgb, var(--surface) 90%, transparent);
+    background:color-mix(in srgb, var(--surface) 92%, transparent);
     backdrop-filter:blur(8px);
     border-bottom:1px solid var(--line);
   }
@@ -100,9 +123,12 @@
     width:40px; height:40px; border-radius:8px;
     background:linear-gradient(155deg, var(--accent), var(--accent-ink));
     color:#fff; display:flex; align-items:center; justify-content:center;
-    font-family:var(--font-mono); font-weight:600; font-size:11px; letter-spacing:.01em;
+    font-family:var(--font-mono); font-weight:600; font-size:12px; letter-spacing:.02em;
     flex:none; box-shadow:var(--shadow);
   }
+  .brand-text{line-height:1.2;}
+  .brand-text .t1{font-family:var(--font-display); font-weight:600; font-size:17px; color:var(--ink);}
+  .brand-text .t2{font-family:var(--font-display); font-weight:500; font-size:12px; letter-spacing:.02em; color:var(--ink-faint);}
   nav.tabs{display:flex; gap:2px; flex-wrap:wrap;}
   nav.tabs button{
     border:1px solid transparent; background:transparent; color:var(--ink-soft);
@@ -117,24 +143,33 @@
     width:36px; height:36px; border-radius:8px; cursor:pointer; flex:none;
     display:flex; align-items:center; justify-content:center; font-size:15px;
   }
-  .lang-toggle{ width:auto; padding:0 12px; font-family:var(--font-mono); font-weight:700; font-size:12.5px; letter-spacing:.03em; }
+  .lang-toggle{
+    width:auto; padding:0 12px; font-family:var(--font-mono); font-weight:700;
+    font-size:12.5px; letter-spacing:.03em;
+  }
 
   /* ============ GENERIC LAYOUT ============ */
   main{position:relative; z-index:1;}
   section.view{padding:52px 0 88px;}
   .eyebrow{
-    font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.08em;
+    font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.09em;
     font-size:12px; color:var(--accent-ink); font-weight:600; margin-bottom:10px;
     display:flex; align-items:center; gap:8px;
   }
   .eyebrow .dash{width:20px; height:1px; background:var(--accent);}
-  .lede{font-size:18px; color:var(--ink-soft); max-width:64ch;}
+  .lede{font-size:18px; color:var(--ink-soft); max-width:62ch;}
   .col-2{display:grid; grid-template-columns:1.3fr 1fr; gap:40px;}
   .col-3{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
   @media (max-width:860px){ .col-2{grid-template-columns:1fr;} .col-3{grid-template-columns:1fr;} }
 
-  .card{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px 24px; box-shadow:var(--shadow); }
-  .panel{ background:var(--surface-2); border:1px dashed var(--line-strong); border-radius:var(--radius); padding:18px 20px; }
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px 24px; box-shadow:var(--shadow);
+  }
+  .panel{
+    background:var(--surface-2); border:1px dashed var(--line-strong); border-radius:var(--radius);
+    padding:18px 20px;
+  }
   .divider{height:1px; background:var(--line); border:0; margin:40px 0;}
 
   .btn{
@@ -146,56 +181,70 @@
   .btn:active{transform:translateY(1px);}
   .btn-primary{background:var(--accent); color:#fff;}
   .btn-primary:hover{background:var(--accent-ink);}
-  .btn-teal{background:var(--teal); color:#fff;}
-  .btn-teal:hover{filter:brightness(1.08);}
   .btn-ghost{background:transparent; border-color:var(--line-strong); color:var(--ink);}
   .btn-ghost:hover{background:var(--surface-2);}
+  .btn-gold{background:var(--gold); color:#fff;}
+  .btn-gold:hover{filter:brightness(1.06);}
   .btn-sm{padding:7px 12px; font-size:13px; border-radius:7px;}
+  .btn-danger-ghost{background:transparent; border-color:var(--danger); color:var(--danger);}
   .btn[disabled]{opacity:.5; cursor:not-allowed;}
-  .btn[disabled]:hover{background:var(--accent);}
 
   .badge{
     display:inline-flex; align-items:center; gap:6px; font-family:var(--font-mono);
     font-size:11.5px; letter-spacing:.03em; padding:4px 9px; border-radius:99px;
     border:1px solid var(--line-strong); color:var(--ink-soft); text-transform:uppercase;
   }
+  .chip{
+    display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600;
+    padding:4px 11px; border-radius:99px;
+  }
+  .chip-submitted{background:var(--accent-soft); color:var(--accent-ink);}
+  .chip-review{background:var(--warn-soft); color:var(--warn);}
+  .chip-revise{background:var(--danger-soft); color:var(--danger);}
+  .chip-accepted{background:var(--good-soft); color:var(--good);}
 
   /* ============ HOME / HERO ============ */
   .hero{padding:44px 0 20px;}
   .letterhead{
     font-family:var(--font-mono); font-size:11.5px; color:var(--ink-faint);
-    display:flex; flex-wrap:wrap; gap:6px 14px; line-height:1.5; margin-bottom:30px; max-width:920px;
+    display:flex; flex-wrap:wrap; gap:6px 14px; line-height:1.5; margin-bottom:30px;
+    max-width:920px;
   }
-  h1.title{ font-size:clamp(30px,5.6vw,60px); line-height:1.1; width:100%; color:var(--accent-ink); margin:6px 0 26px; }
+  h1.title{
+    font-size:clamp(34px,6.4vw,72px); line-height:1.06; max-width:none; width:100%;
+    color:var(--accent); margin:6px 0 26px;
+  }
   .meta-row{display:flex; flex-wrap:wrap; gap:10px 26px; margin:22px 0 30px; font-size:14.5px;}
   .meta-item{display:flex; align-items:center; gap:8px; color:var(--ink-soft);}
   .meta-item .k{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-faint);}
   .cta-row{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:10px;}
 
-  .path-fork{margin:36px 0;}
-  .path-card h3{font-size:19px;}
-  .path-card p{font-size:14.5px; color:var(--ink-soft);}
-
   .stat-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; margin:44px 0;}
   .stat{background:var(--surface); padding:18px 20px;}
-  .stat .n{font-family:var(--font-display); font-size:26px; font-weight:600; color:var(--accent-ink); font-variant-numeric:tabular-nums;}
+  .stat .n{font-family:var(--font-display); font-size:28px; font-weight:600; color:var(--accent-ink);}
   .stat .l{font-size:12.5px; color:var(--ink-faint); margin-top:2px;}
   @media (max-width:760px){ .stat-grid{grid-template-columns:repeat(2,1fr);} }
 
   .timeline{list-style:none; margin:0; padding:0; border-left:2px solid var(--line); margin-left:6px;}
   .timeline li{position:relative; padding:2px 0 26px 26px;}
-  .timeline li::before{ content:''; position:absolute; left:-7px; top:4px; width:12px; height:12px; border-radius:50%; background:var(--surface); border:2px solid var(--accent); }
+  .timeline li::before{
+    content:''; position:absolute; left:-7px; top:4px; width:12px; height:12px;
+    border-radius:50%; background:var(--surface); border:2px solid var(--accent);
+  }
   .timeline li.done::before{background:var(--good); border-color:var(--good);}
-  .timeline li.now::before{background:var(--teal); border-color:var(--teal); box-shadow:0 0 0 4px var(--teal-soft);}
+  .timeline li.now::before{background:var(--gold); border-color:var(--gold); box-shadow:0 0 0 4px var(--gold-soft);}
   .timeline .tl-date{font-family:var(--font-mono); font-size:12.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em;}
   .timeline .tl-title{font-weight:600; margin:2px 0 2px;}
   .timeline .tl-desc{font-size:14px; color:var(--ink-soft);}
-  .countdown{font-family:var(--font-mono); font-size:12.5px; color:var(--teal-ink); font-weight:600;}
+  .countdown{font-family:var(--font-mono); font-size:12.5px; color:var(--gold); font-weight:600;}
 
   /* ============ ABOUT ============ */
-  .org-list{ columns:2 260px; column-gap:28px; font-size:13.5px; color:var(--ink-soft); list-style:none; margin:0; padding:0; }
-  .org-list li{ break-inside:avoid; padding:5px 0 5px 16px; position:relative; border-bottom:1px dotted var(--line); }
-  .org-list li::before{content:'вЂ”'; position:absolute; left:0; color:var(--ink-faint);}
+  .org-list{
+    columns:2 260px; column-gap:28px; font-size:13.5px; color:var(--ink-soft);
+    list-style:none; margin:0; padding:0;
+  }
+  .org-list li{break-inside:avoid; padding:5px 0 5px 16px; position:relative; border-bottom:1px dotted var(--line);}
+  .org-list li::before{content:'—'; position:absolute; left:0; color:var(--ink-faint);}
 
   .goal-list{list-style:none; margin:0; padding:0; display:grid; gap:14px;}
   .goal-list li{display:flex; gap:14px; align-items:flex-start;}
@@ -205,86 +254,118 @@
     flex:none; font-weight:600; margin-top:1px;
   }
 
-  .committee-grid{ columns:2 300px; column-gap:26px; font-size:13.5px; }
-  .committee-grid .person{break-inside:avoid; padding:9px 0; border-bottom:1px solid var(--line);}
-  .committee-grid .p-role{font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--teal-ink); margin-bottom:2px;}
+  .committee-grid{
+    columns:2 300px; column-gap:26px; font-size:13.5px;
+  }
+  .committee-grid .person{break-inside:avoid; padding:8px 0; border-bottom:1px solid var(--line);}
   .committee-grid .p-name{font-weight:600; color:var(--ink);}
-  .committee-grid .p-aff{color:var(--ink-faint); font-size:12.5px;}
+  .committee-grid .p-role{color:var(--ink-faint); font-size:12.5px;}
+  details.reveal{margin-top:6px;}
+  details.reveal > summary{
+    cursor:pointer; font-weight:600; color:var(--accent); font-size:14px; list-style:none;
+    display:inline-flex; align-items:center; gap:6px;
+  }
+  details.reveal > summary::-webkit-details-marker{display:none;}
+  details.reveal > summary::before{content:'▸'; font-size:11px; transition:transform .15s;}
+  details.reveal[open] > summary::before{transform:rotate(90deg);}
 
   .section-card{border-top:3px solid var(--accent);}
   .section-card .sc-head{display:flex; align-items:baseline; gap:10px; margin-bottom:10px;}
-  .section-card .sc-num{font-family:var(--font-mono); color:var(--accent-ink); font-weight:700; font-size:12.5px;}
-  .section-card h3{font-size:17px; margin:0;}
-  .section-card p{margin:0; color:var(--ink-soft); font-size:14px;}
-  .topics-note{font-size:13.5px; color:var(--ink-faint); margin-top:18px;}
+  .section-card .sc-num{font-family:var(--font-mono); color:var(--accent); font-weight:700; font-size:13px;}
+  .section-card h3{font-size:18px; margin:0;}
+  .section-card ul{margin:0; padding-left:18px; color:var(--ink-soft); font-size:14px; display:grid; gap:6px;}
 
   .lang-row{display:flex; gap:10px; margin-top:6px;}
 
-  /* ============ FIELDSETS / CHECKLIST ============ */
-  fieldset{border:none; padding:0; margin:0;}
-  legend{font-family:var(--font-mono); font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); padding:0 0 10px;}
+  /* ============ FORMS ============ */
+  form.doc-form{display:grid; gap:18px;}
+  .field-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .field-grid.g3{grid-template-columns:1fr 1fr 1fr;}
+  @media (max-width:700px){ .field-grid, .field-grid.g3{grid-template-columns:1fr;} }
+  .field{display:flex; flex-direction:column; gap:6px;}
+  .field label{font-size:13px; font-weight:600; color:var(--ink-soft);}
+  .field .hint{font-size:12px; color:var(--ink-faint); font-weight:400;}
+  .field input[type=text], .field input[type=email], .field input[type=tel], .field input[type=number], .field select, .field textarea{
+    font-family:var(--font-body); font-size:15px; padding:10px 12px; border-radius:7px;
+    border:1px solid var(--line-strong); background:var(--surface); color:var(--ink);
+    width:100%;
+  }
+  .field textarea{resize:vertical; min-height:80px; font-family:var(--font-body);}
+  .field input:focus, .field select:focus, .field textarea:focus{border-color:var(--accent);}
+  .field.required label::after{content:' *'; color:var(--danger);}
+  fieldset{border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px; margin:0;}
+  fieldset legend{font-family:var(--font-mono); font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); padding:0 6px;}
+  .radio-row{display:flex; gap:18px; flex-wrap:wrap;}
+  .radio-row label{display:flex; align-items:center; gap:7px; font-size:14.5px; cursor:pointer;}
+
+  .author-row{
+    display:grid; grid-template-columns:1.4fr 1.4fr .8fr .9fr auto; gap:10px; align-items:end;
+    padding:12px; background:var(--surface-2); border-radius:8px; border:1px solid var(--line);
+  }
+  @media (max-width:760px){ .author-row{grid-template-columns:1fr 1fr;} }
+  .author-row .field{gap:4px;}
+  .author-row .field label{font-size:11.5px;}
+  .rm-author{background:transparent; border:1px solid var(--danger); color:var(--danger); border-radius:6px; width:32px; height:32px; cursor:pointer;}
+
   .checklist{display:grid; gap:10px;}
   .checklist .cl-group{border:1px solid var(--line); border-radius:8px; padding:12px 14px;}
-  .checklist .cl-group h4{font-size:12.5px; text-transform:uppercase; letter-spacing:.04em; font-family:var(--font-mono); color:var(--ink-faint); margin:0 0 8px; font-weight:600;}
+  .checklist .cl-group h4{font-size:13px; text-transform:uppercase; letter-spacing:.04em; font-family:var(--font-mono); color:var(--ink-faint); margin:0 0 8px; font-weight:600;}
   .cl-item{display:flex; align-items:flex-start; gap:9px; padding:5px 0; font-size:14px;}
   .cl-item input{margin-top:3px; flex:none; width:16px; height:16px; accent-color:var(--accent);}
-  .cl-progress{height:6px; border-radius:99px; background:var(--line); overflow:hidden; margin:4px 0 2px;}
+  .cl-progress{
+    height:6px; border-radius:99px; background:var(--line); overflow:hidden; margin:4px 0 2px;
+  }
   .cl-progress > i{display:block; height:100%; background:var(--accent); width:0%; transition:width .2s;}
-  .hint{font-size:12px; color:var(--ink-faint); font-weight:400;}
 
-  .info-note{
-    display:flex; gap:12px; background:var(--accent-soft); border:1px solid color-mix(in srgb, var(--accent) 40%, var(--line));
-    border-radius:var(--radius); padding:14px 16px; font-size:13.5px; color:var(--ink);
-  }
-  .info-note.warn{background:var(--warn-soft); border-color:color-mix(in srgb, var(--warn) 45%, var(--line));}
-  .info-note .ico{flex:none; font-family:var(--font-mono); font-weight:700; color:var(--accent-ink);}
-  .info-note.warn .ico{color:var(--warn);}
-
-  /* ============ REGISTRATION FORM ============ */
-  .reg-card{border-left:4px solid var(--accent);}
-  .reg-block{border:1px solid var(--line); border-radius:8px; padding:16px 18px; margin-bottom:16px;}
-  .reg-block legend{padding:0 0 12px;}
-  .field-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px 16px;}
-  @media (max-width:640px){ .field-grid{grid-template-columns:1fr;} }
-  .field{display:flex; flex-direction:column; gap:5px; margin-bottom:14px;}
-  .field:last-child{margin-bottom:0;}
-  .field label{font-size:13px; font-weight:600; color:var(--ink-soft);}
-  .field.required label::after{content:' *'; color:var(--danger);}
-  .field .hint{margin-top:1px;}
-  .field input[type="text"], .field input[type="email"], .field input[type="tel"], .field select, .field textarea{
-    font-family:var(--font-body); font-size:15px; padding:9px 11px; border-radius:7px;
-    border:1px solid var(--line-strong); background:var(--surface); color:var(--ink); width:100%;
-  }
-  .field textarea{resize:vertical; min-height:64px;}
-  .field input:focus, .field select:focus, .field textarea:focus{border-color:var(--accent);}
-  .field input:invalid:not(:placeholder-shown){border-color:var(--danger);}
-  .radio-row{display:flex; gap:16px; flex-wrap:wrap;}
-  .radio-row label{display:flex; align-items:center; gap:7px; font-size:14.5px; cursor:pointer; font-weight:400;}
-  .radio-row input{accent-color:var(--accent); width:16px; height:16px;}
-  .consent-row{display:flex; align-items:flex-start; gap:10px; font-size:14px; color:var(--ink-soft);}
-  .consent-row input{margin-top:3px; flex:none; width:17px; height:17px; accent-color:var(--accent);}
   .form-actions{display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding-top:6px;}
   .msg{font-size:13.5px; padding:10px 13px; border-radius:8px; display:none;}
   .msg.show{display:block;}
   .msg.ok{background:var(--good-soft); color:var(--good);}
   .msg.err{background:var(--danger-soft); color:var(--danger);}
-  .config-notice{margin-bottom:18px;}
-  .confirm-card{border-left:4px solid var(--good);}
-  .confirm-card h3{color:var(--good); font-size:19px;}
 
-  /* ============ GOOGLE FORM EMBEDS (manuscript / revision) ============ */
-  .gform-frame{border:0; border-radius:8px; display:block; width:100%;}
-  .empty-state{
-    text-align:center; padding:36px 20px; color:var(--ink-faint);
-    border:1px dashed var(--line-strong); border-radius:var(--radius);
+  .confirm-card{border-left:4px solid var(--good); }
+  .confirm-card .cid{font-family:var(--font-mono); font-size:19px; font-weight:600; color:var(--good); letter-spacing:.02em;}
+
+  .info-note{
+    display:flex; gap:12px; background:var(--accent-soft); border:1px solid color-mix(in srgb, var(--accent) 40%, var(--line));
+    border-radius:var(--radius); padding:14px 16px; font-size:13.5px; color:var(--ink);
   }
-  .empty-state .es-msg{margin-bottom:6px; color:var(--ink-soft);}
-  .empty-state .es-note{font-size:12px;}
+  .info-note .ico{flex:none; font-family:var(--font-mono); font-weight:700; color:var(--accent-ink);}
+
+  /* ============ MY SUBMISSIONS ============ */
+  .track-toolbar{display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:20px;}
+  .empty-state{
+    text-align:center; padding:60px 20px; color:var(--ink-faint); border:1px dashed var(--line-strong);
+    border-radius:var(--radius);
+  }
+  .item-list{display:grid; gap:16px;}
+  .item-card{border-left:4px solid var(--line-strong);}
+  .item-card[data-status="submitted"]{border-left-color:var(--accent);}
+  .item-card[data-status="review"]{border-left-color:var(--warn);}
+  .item-card[data-status="revise"]{border-left-color:var(--danger);}
+  .item-card[data-status="accepted"]{border-left-color:var(--good);}
+  .item-top{display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap;}
+  .item-title{font-family:var(--font-display); font-weight:600; font-size:17px; margin-bottom:3px;}
+  .item-sub{font-size:12.5px; color:var(--ink-faint); font-family:var(--font-mono);}
+  .item-controls{display:flex; gap:8px; align-items:center; flex-wrap:wrap;}
+  .status-select{
+    font-family:var(--font-body); font-size:12.5px; font-weight:600; padding:5px 8px; border-radius:99px;
+    border:1px solid var(--line-strong); background:var(--surface);
+  }
+  .item-body{margin-top:12px; font-size:14px; color:var(--ink-soft); display:grid; gap:4px;}
+  .log{margin-top:14px; border-top:1px solid var(--line); padding-top:12px;}
+  .log h5{margin:0 0 8px; font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); font-family:var(--font-mono); font-weight:600;}
+  .log-entry{display:flex; gap:10px; padding:7px 0; border-bottom:1px dotted var(--line); font-size:13.5px;}
+  .log-entry:last-child{border-bottom:none;}
+  .log-entry .le-date{font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); flex:none; width:82px; padding-top:2px;}
+  .log-add{display:flex; gap:8px; margin-top:10px;}
+  .log-add input{flex:1; font-family:var(--font-body); font-size:13.5px; padding:8px 10px; border-radius:7px; border:1px solid var(--line-strong); background:var(--surface); color:var(--ink);}
+  .item-foot{display:flex; gap:8px; margin-top:14px; flex-wrap:wrap;}
 
   /* ============ CONTACTS ============ */
   .contact-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:18px;}
   @media (max-width:760px){ .contact-grid{grid-template-columns:1fr;} }
-  .contact-card .role{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--teal-ink); margin-bottom:6px;}
+  .contact-card .role{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--accent-ink); margin-bottom:6px;}
   .contact-card .name{font-weight:700; font-size:15.5px;}
   .contact-card .aff{font-size:13px; color:var(--ink-faint); margin:2px 0 10px;}
   .contact-card .cline{font-size:13.5px; display:flex; gap:8px; align-items:center; margin-top:4px;}
@@ -300,7 +381,7 @@
 
 <header class="site">
   <div class="head-row">
-    <nav class="tabs" id="mainNav" aria-label="Р РѕР·РґС–Р»Рё СЃР°Р№С‚Сѓ">
+    <nav class="tabs" id="mainNav" aria-label="Розділи сайту">
       <button type="button" data-nav="home"></button>
       <button type="button" data-nav="about"></button>
       <button type="button" data-nav="register"></button>
@@ -310,7 +391,7 @@
     </nav>
     <div class="head-controls">
       <button class="theme-toggle lang-toggle" id="langToggle" type="button"></button>
-      <button class="theme-toggle" id="themeToggle" type="button">в—ђ</button>
+      <button class="theme-toggle" id="themeToggle" type="button">◐</button>
     </div>
   </div>
 </header>
@@ -322,8 +403,11 @@
   <div class="container">
     <div class="hero">
       <div class="letterhead" id="letterheadShort"></div>
+
       <div class="eyebrow"><span class="dash"></span><span id="homeEyebrow"></span></div>
+
       <h1 class="title" id="homeTitle"></h1>
+
       <p class="lede" id="homeLede"></p>
 
       <div class="meta-row">
@@ -336,32 +420,16 @@
 
       <div class="cta-row">
         <button class="btn btn-primary" data-nav="register" id="ctaRegister"></button>
-        <button class="btn btn-teal" data-nav="submit" id="ctaSubmit"></button>
+        <button class="btn btn-gold" data-nav="submit" id="ctaSubmit"></button>
         <button class="btn btn-ghost" data-nav="about" id="ctaAbout"></button>
       </div>
     </div>
 
-    <!-- two separate scenarios: attending vs. submitting a paper -->
-    <div class="col-2 path-fork">
-      <div class="card path-card">
-        <div class="eyebrow"><span class="dash"></span><span id="pathAEyebrow"></span></div>
-        <h3 id="pathATitle"></h3>
-        <p id="pathAText"></p>
-        <button class="btn btn-primary" data-nav="register" id="pathABtn"></button>
-      </div>
-      <div class="card path-card">
-        <div class="eyebrow"><span class="dash"></span><span id="pathBEyebrow"></span></div>
-        <h3 id="pathBTitle"></h3>
-        <p id="pathBText"></p>
-        <button class="btn btn-teal" data-nav="submit" id="pathBBtn"></button>
-      </div>
-    </div>
-
     <div class="stat-grid">
-      <div class="stat"><div class="n">7</div><div class="l" id="statSectionsL"></div></div>
-      <div class="stat"><div class="n">15</div><div class="l" id="statPartnersL"></div></div>
-      <div class="stat"><div class="n" id="statDeadlineDays">вЂ”</div><div class="l" id="statDeadlineL"></div></div>
-      <div class="stat"><div class="n" id="statDigestN"></div><div class="l" id="statDigestL"></div></div>
+      <div class="stat"><div class="n">5</div><div class="l" id="statSectionsL"></div></div>
+      <div class="stat"><div class="n">18+</div><div class="l" id="statPartnersL"></div></div>
+      <div class="stat"><div class="n" id="statDeadlineDays">—</div><div class="l" id="statDeadlineL"></div></div>
+      <div class="stat"><div class="n">ISBN</div><div class="l" id="statIsbnL"></div></div>
     </div>
 
     <div class="col-2">
@@ -374,11 +442,8 @@
         <div class="card" style="margin-bottom:14px;">
           <p style="margin-bottom:8px;" id="step1"></p>
           <p style="margin-bottom:8px;" id="step2"></p>
-          <p style="margin-bottom:8px;" id="step3"></p>
-          <p style="margin-bottom:8px;" id="step4"></p>
-          <p style="margin-bottom:0;" id="step5"></p>
+          <p style="margin-bottom:0;" id="step3"></p>
         </div>
-        <div class="hint" style="margin-bottom:14px;" id="stepsNote"></div>
         <div class="info-note"><span class="ico">i</span><span id="homeInfoNote"></span></div>
       </div>
     </div>
@@ -389,7 +454,7 @@
 <section class="view" id="view-about" hidden>
   <div class="container">
     <div class="eyebrow"><span class="dash"></span><span id="aboutEyebrow"></span></div>
-    <h2 style="font-size:29px; max-width:28ch;" id="aboutH2"></h2>
+    <h2 style="font-size:30px; max-width:26ch;" id="aboutH2"></h2>
 
     <h3 style="margin-top:34px; font-size:18px;" id="goalsH3"></h3>
     <ul class="goal-list">
@@ -421,106 +486,27 @@
 
     <h3 style="font-size:18px; margin-bottom:18px;" id="topicsH3"></h3>
     <div class="col-3" id="sectionsGrid" style="grid-template-columns:repeat(2,1fr);"></div>
-    <p class="topics-note" id="topicsNote"></p>
   </div>
 </section>
 
-<!-- ================= REGISTRATION ================= -->
+<!-- ================= REGISTER ================= -->
 <section class="view" id="view-register" hidden>
   <div class="container">
-    <div class="eyebrow"><span class="dash"></span><span id="registerEyebrow"></span></div>
-    <h2 style="font-size:27px;" id="registerH2"></h2>
-    <p class="lede" style="font-size:15px; margin-bottom:10px;" id="registerLede"></p>
-    <div class="info-note" style="max-width:760px; margin-bottom:26px;"><span class="ico">i</span><span id="registerSeparateNote"></span></div>
-
     <div class="col-2">
       <div>
-        <div class="card reg-card">
-          <div id="regConfigNotice" class="info-note warn config-notice" hidden><span class="ico">!</span><span id="regConfigNoticeText"></span></div>
-
-          <form id="registrationForm" target="regHiddenFrame">
-            <fieldset class="reg-block">
-              <legend id="regBlock1Legend"></legend>
-              <div class="field-grid">
-                <div class="field required"><label for="reg_fullName" id="regFullNameLabel"></label>
-                  <input type="text" id="reg_fullName" autocomplete="name" required></div>
-                <div class="field required"><label for="reg_email" id="regEmailLabel"></label>
-                  <input type="email" id="reg_email" autocomplete="email" required></div>
-                <div class="field required"><label for="reg_phone" id="regPhoneLabel"></label>
-                  <input type="tel" id="reg_phone" autocomplete="tel" pattern="[0-9+\(\)\-\s]{6,20}" required></div>
-              </div>
-            </fieldset>
-
-            <fieldset class="reg-block">
-              <legend id="regBlock2Legend"></legend>
-              <div class="field-grid">
-                <div class="field required"><label for="reg_country" id="regCountryLabel"></label>
-                  <input type="text" id="reg_country" required></div>
-                <div class="field required"><label for="reg_institution" id="regInstitutionLabel"></label>
-                  <input type="text" id="reg_institution" required></div>
-                <div class="field required"><label for="reg_degreePosition" id="regDegreePositionLabel"></label>
-                  <input type="text" id="reg_degreePosition" required></div>
-              </div>
-            </fieldset>
-
-            <fieldset class="reg-block">
-              <legend id="regBlock3Legend"></legend>
-              <div class="field required" style="margin-bottom:16px;">
-                <label id="regParticipationFormatLabel"></label>
-                <div class="radio-row" id="regParticipationFormatRadios"></div>
-              </div>
-              <div class="field required" style="margin-bottom:16px;">
-                <label id="regManuscriptLabel"></label>
-                <div class="radio-row" id="regManuscriptRadios"></div>
-              </div>
-              <div class="field required" style="margin-bottom:16px;">
-                <label for="reg_track" id="regTrackLabel"></label>
-                <select id="reg_track" required></select>
-              </div>
-              <div class="field required">
-                <label for="reg_invitation" id="regInviteLabel"></label>
-                <select id="reg_invitation" required></select>
-              </div>
-            </fieldset>
-
-            <fieldset class="reg-block">
-              <legend id="regBlock4Legend"></legend>
-              <div class="field"><label for="reg_comments" id="regCommentsLabel"></label>
-                <textarea id="reg_comments"></textarea></div>
-            </fieldset>
-
-            <fieldset class="reg-block">
-              <legend id="regBlock5Legend"></legend>
-              <label class="consent-row"><input type="checkbox" id="reg_consent" required><span id="regConsentLabel"></span></label>
-            </fieldset>
-
-            <div class="msg" id="regMsg" role="alert"></div>
-
-            <div class="form-actions">
-              <button type="submit" class="btn btn-primary" id="regSubmitBtn"></button>
-            </div>
-          </form>
-
-          <div class="card confirm-card" id="regThankYou" hidden style="margin-top:18px;">
-            <h3 id="regThankYouTitle"></h3>
-            <p id="regThankYouText" style="margin-bottom:14px;"></p>
-            <button class="btn btn-teal" data-nav="submit" id="regThankYouCta"></button>
-          </div>
-        </div>
-
-        <iframe name="regHiddenFrame" id="regHiddenFrame" title="registration submit target" style="display:none" aria-hidden="true"></iframe>
+        <div class="eyebrow"><span class="dash"></span><span id="registerEyebrow"></span></div>
+        <h2 style="font-size:28px;" id="registerH2"></h2>
+        <p class="lede" style="font-size:15px; margin-bottom:22px;" id="registerLede"></p>
+        <div class="card" id="gform-register"></div>
       </div>
 
       <div>
-        <div class="panel" style="margin-bottom:16px;">
+        <div class="eyebrow"><span class="dash"></span><span id="registerInfoEyebrow"></span></div>
+        <div class="info-note" style="margin-bottom:16px;"><span class="ico">i</span><span id="registerInfoNote"></span></div>
+        <div class="panel">
           <strong style="display:block; margin-bottom:8px;" id="registerPanelTitle"></strong>
           <ol style="margin:0; padding-left:18px; font-size:13.5px; color:var(--ink-soft); display:grid; gap:6px;" id="sectionMiniList"></ol>
         </div>
-        <div class="panel" style="margin-bottom:16px;">
-          <strong style="display:block; margin-bottom:8px;" id="regWhoTitle"></strong>
-          <ul style="margin:0; padding-left:18px; font-size:13.5px; color:var(--ink-soft); display:grid; gap:6px;" id="regWhoList"></ul>
-        </div>
-        <div class="info-note" id="regDeadlineNoteBox"><span class="ico">i</span><span id="regDeadlineNoteText"></span></div>
       </div>
     </div>
   </div>
@@ -530,16 +516,15 @@
 <section class="view" id="view-submit" hidden>
   <div class="container">
     <div class="eyebrow"><span class="dash"></span><span id="submitEyebrow"></span></div>
-    <h2 style="font-size:27px;" id="submitH2"></h2>
-    <p class="lede" style="font-size:15px; margin-bottom:10px;" id="submitLede"></p>
-    <div class="info-note" style="max-width:760px; margin-bottom:14px;"><span class="ico">i</span><span id="submitSeparateNote"></span></div>
+    <h2 style="font-size:28px;" id="submitH2"></h2>
+    <p class="lede" style="font-size:15px; margin-bottom:8px;" id="submitLede"></p>
     <div class="info-note" style="max-width:760px; margin-bottom:26px;"><span class="ico" id="deadlineIco">i</span><span id="deadlineNote"></span></div>
 
     <div class="col-2">
       <div>
         <div class="card" style="margin-bottom:26px;">
-          <fieldset>
-            <legend id="checklistLegend"></legend>
+          <fieldset style="border:none; padding:0;">
+            <legend style="font-family:var(--font-mono); font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); padding:0 0 10px;" id="checklistLegend"></legend>
             <div class="cl-progress"><i id="clBar"></i></div>
             <div class="hint" id="clCount" style="margin-bottom:8px;"></div>
             <div class="checklist" id="checklistWrap"></div>
@@ -547,9 +532,7 @@
         </div>
 
         <div class="eyebrow"><span class="dash"></span><span id="submitFormEyebrow"></span></div>
-        <div class="card" id="gformManuscriptCard" style="margin-bottom:26px;">
-          <div id="gform-manuscript"></div>
-        </div>
+        <div class="card" id="gform-manuscript"></div>
       </div>
 
       <div>
@@ -557,17 +540,17 @@
           <strong style="display:block; margin-bottom:8px;" id="reqPanelTitle"></strong>
           <ul style="margin:0; padding-left:18px; font-size:13.5px; color:var(--ink-soft); display:grid; gap:6px;" id="reqList"></ul>
         </div>
-        <div class="info-note warn"><span class="ico">!</span><span id="submitWarnNote"></span></div>
+        <div class="info-note"><span class="ico">!</span><span id="submitWarnNote"></span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= REVIEW / REVISIONS ================= -->
+<!-- ================= REVIEW / FEEDBACK ================= -->
 <section class="view" id="view-status" hidden>
   <div class="container">
     <div class="eyebrow"><span class="dash"></span><span id="statusEyebrow"></span></div>
-    <h2 style="font-size:27px; margin-bottom:4px;" id="statusH2"></h2>
+    <h2 style="font-size:28px; margin-bottom:4px;" id="statusH2"></h2>
     <p class="lede" style="font-size:15px; margin-bottom:26px;" id="statusLede"></p>
 
     <ol class="goal-list" style="margin-bottom:30px;">
@@ -580,9 +563,7 @@
     <div class="info-note" style="margin-bottom:26px;"><span class="ico">i</span><span id="statusInfoNote1"></span></div>
 
     <div class="eyebrow"><span class="dash"></span><span id="statusFormEyebrow"></span></div>
-    <div class="card" id="gformRevisionCard" style="margin-bottom:20px;">
-      <div id="gform-revision"></div>
-    </div>
+    <div class="card" id="gform-revision" style="margin-bottom:20px;"></div>
 
     <div class="info-note"><span class="ico">i</span><span id="statusInfoNote2"></span></div>
   </div>
@@ -592,7 +573,7 @@
 <section class="view" id="view-contacts" hidden>
   <div class="container">
     <div class="eyebrow"><span class="dash"></span><span id="contactsEyebrow"></span></div>
-    <h2 style="font-size:27px;" id="contactsH2"></h2>
+    <h2 style="font-size:28px;" id="contactsH2"></h2>
     <div class="contact-grid" id="contactGrid" style="margin-top:22px;"></div>
 
     <div class="venue-block">
@@ -621,513 +602,425 @@
 (function(){
   "use strict";
 
-  var EMAIL = 'kovalevskii61@gmail.com';
-  var PHONE = '+380504780394';
-
-  /* ================================================================
-     Р Р•Р„РЎРўР РђР¦Р†РЇ РЈР§РђРЎРќРРљР†Р’ вЂ” РєРѕРЅС„С–РіСѓСЂР°С†С–СЏ Google Р¤РѕСЂРјРё
-     ------------------------------------------------------------
-     Р¦СЏ СЃС‚РѕСЂС–РЅРєР° СЃР°РјР° РќР• РјР°С” СЃРµСЂРІРµСЂР°, С‚РѕРјСѓ СЂРµР°Р»СЊРЅР° РґРѕСЃС‚Р°РІРєР° РґР°РЅРёС…
-     РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ СЂРµР°Р»С–Р·РѕРІР°РЅР° С‡РµСЂРµР· Google Р¤РѕСЂРјРё + Google РўР°Р±Р»РёС†С–:
-     РІР»Р°СЃРЅР° HTML-С„РѕСЂРјР° РЅРёР¶С‡Рµ (СЃС‚РёР»С–Р·РѕРІР°РЅР° РїС–Рґ СЃР°Р№С‚, Р· РІР°Р»С–РґР°С†С–С”СЋ)
-     РїРѕРґР°С” РґР°РЅС– РЅР°РїСЂСЏРјСѓ Сѓ РІС–РґРїРѕРІС–РґС– РІР°С€РѕС— Google Р¤РѕСЂРјРё.
-
-     РЎС‚СЂСѓРєС‚СѓСЂР° РїРѕР»С–РІ РЅРёР¶С‡Рµ Р·РІС–СЂРµРЅР° Р· СЂРµР°Р»СЊРЅРѕСЋ С„РѕСЂРјРѕСЋ СЂРµС”СЃС‚СЂР°С†С–С—
-     РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ (docs.google.com/forms/d/e/1FAIpQLSdwqWPuzFFKsdwnMMCotq0PuHwJR8X5P5rp6mPKCxGLLWf7Qg/viewform) вЂ”
-     12 РїРѕР»С–РІ, РїРѕСЂСЏРґРѕРє С– С‚РёРїРё РІС–РґРїРѕРІС–РґР°СЋС‚СЊ С†С–Р№ С„РѕСЂРјС–.
-
-     Р©Рћ Р©Р• РџРћРўР Р†Р‘РќРћ Р—Р РћР‘РРўР, Р©РћР‘ Р Р•Р„РЎРўР РђР¦Р†РЇ Р—РђРџР РђР¦Р®Р’РђР›Рђ:
-     1) РЎРєРѕРїС–СЋР№С‚Рµ РїСѓР±Р»С–С‡РЅРёР№ URL С„РѕСЂРјРё (РќР°РґС–СЃР»Р°С‚Рё в†’ Р·РЅР°С‡РѕРє РїРѕСЃРёР»Р°РЅРЅСЏ)
-        Сѓ REGISTRATION_FORM_URL РЅРёР¶С‡Рµ вЂ” СЃР°РјРµ С‚Р°РєРёР№ РІРёРіР»СЏРґ:
-        https://docs.google.com/forms/d/e/XXXXXXXX/viewform
-     2) Р”Р»СЏ РљРћР–РќРћР“Рћ РїРѕР»СЏ РґС–Р·РЅР°Р№С‚РµСЃСЏ Р№РѕРіРѕ С–РґРµРЅС‚РёС„С–РєР°С‚РѕСЂ entry.NNNNNNNNN:
-        РІС–РґРєСЂРёР№С‚Рµ С„РѕСЂРјСѓ в†’ "в‹®" (РјРµРЅСЋ) в†’ "РћС‚СЂРёРјР°С‚Рё РїРѕРїРµСЂРµРґРЅСЊРѕ Р·Р°РїРѕРІРЅРµРЅРµ
-        РїРѕСЃРёР»Р°РЅРЅСЏ" в†’ Р·Р°РїРѕРІРЅС–С‚СЊ РєРѕР¶РЅРµ РїРѕР»Рµ СЂРѕР·РїС–Р·РЅР°РІР°РЅРёРј Р·РЅР°С‡РµРЅРЅСЏРј в†’
-        "РћС‚СЂРёРјР°С‚Рё РїРѕСЃРёР»Р°РЅРЅСЏ" в†’ СЃРєРѕРїС–СЋР№С‚Рµ Р· РѕС‚СЂРёРјР°РЅРѕРіРѕ URL Р·РЅР°С‡РµРЅРЅСЏ
-        entry.NNNNNNNNN, С‰Рѕ СЃС‚РѕС—С‚СЊ РїРµСЂРµРґ РєРѕР¶РЅРёРј РІР°С€РёРј Р·РЅР°С‡РµРЅРЅСЏРј.
-        Р’СЃС‚Р°РІС‚Рµ РєРѕР¶РµРЅ С–РґРµРЅС‚РёС„С–РєР°С‚РѕСЂ Сѓ РІС–РґРїРѕРІС–РґРЅРµ РїРѕР»Рµ РѕР±'С”РєС‚Р°
-        REGISTRATION_ENTRY_IDS РЅРёР¶С‡Рµ.
-     3) Р—РІС–СЂС‚Рµ С‚РµРєСЃС‚ РІР°СЂС–Р°РЅС‚С–РІ РІС–РґРїРѕРІС–РґС– (participationFormat,
-        manuscript, invitation) Р· СЂРµР°Р»СЊРЅРёРјРё РІР°СЂС–Р°РЅС‚Р°РјРё Сѓ С„РѕСЂРјС– вЂ”
-        РЅРёР¶С‡Рµ СЃС‚РѕСЏС‚СЊ Р·РЅР°С‡РµРЅРЅСЏ, Р·С‡РёС‚Р°РЅС– Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ, С—С… РІР°СЂС‚Рѕ
-        РїРµСЂРµРІС–СЂРёС‚Рё СЃРёРјРІРѕР»-Сѓ-СЃРёРјРІРѕР» Сѓ СЂРµРґР°РєС‚РѕСЂС– С„РѕСЂРјРё.
-     4) Google РўР°Р±Р»РёС†СЏ Р· РІС–РґРїРѕРІС–РґСЏРјРё СЃС‚РІРѕСЂСЋС”С‚СЊСЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ
-        (Сѓ СЂРµРґР°РєС‚РѕСЂС– С„РѕСЂРјРё: РІРєР»Р°РґРєР° "Р’С–РґРїРѕРІС–РґС–" в†’ Р·РЅР°С‡РѕРє С‚Р°Р±Р»РёС†С–).
-
-     Р”РѕРєРё REGISTRATION_FORM_URL С– РІСЃС– REGISTRATION_ENTRY_IDS РЅРµ
-     Р·Р°РїРѕРІРЅРµРЅС–, С„РѕСЂРјР° РЅР° СЃР°Р№С‚С– РїРѕРєР°Р·СѓС” С‡РµСЃРЅРµ РїРѕРїРµСЂРµРґР¶РµРЅРЅСЏ, С‰Рѕ
-     СЂРµС”СЃС‚СЂР°С†С–СЏ С‰Рµ РЅРµ РїС–РґРєР»СЋС‡РµРЅР°, С– РЅРµ РЅР°РґСЃРёР»Р°С” Р¶РѕРґРЅРёС… РґР°РЅРёС….
-     ================================================================ */
-  var REGISTRATION_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdwqWPuzFFKsdwnMMCotq0PuHwJR8X5P5rp6mPKCxGLLWf7Qg/viewform'; // РїСѓР±Р»С–С‡РЅРёР№ viewform-URL СЂРµР°Р»СЊРЅРѕС— С„РѕСЂРјРё СЂРµС”СЃС‚СЂР°С†С–С— (РїС–РґС‚РІРµСЂРґР¶РµРЅРѕ)
-  var REGISTRATION_ENTRY_IDS = {
-    fullName:            'entry.681552369',  // 1. Full name / РџР†Р‘*                      (РєРѕСЂРѕС‚РєР° РІС–РґРїРѕРІС–РґСЊ)
-    email:               'entry.1818891581', // 2. Email address*                        (РєРѕСЂРѕС‚РєР° РІС–РґРїРѕРІС–РґСЊ, С‚РёРї "Email")
-    phone:               'entry.830156843',  // 3. Phone number*                         (РєРѕСЂРѕС‚РєР° РІС–РґРїРѕРІС–РґСЊ)
-    country:             'entry.1975716204', // 4. Country / РљСЂР°С—РЅР°*                     (РєРѕСЂРѕС‚РєР° РІС–РґРїРѕРІС–РґСЊ)
-    institution:         'entry.324214961',  // 5. Institution / РЈСЃС‚Р°РЅРѕРІР°*               (РєРѕСЂРѕС‚РєР° РІС–РґРїРѕРІС–РґСЊ)
-    degreePosition:      'entry.1522540583', // 6. Academic degree, position*            (РєРѕСЂРѕС‚РєР° РІС–РґРїРѕРІС–РґСЊ)
-    participationFormat: 'entry.34467050',   // 7. Participation format*                 (РѕРґРЅР° РІС–РґРїРѕРІС–РґСЊ: 3 РІР°СЂС–Р°РЅС‚Рё)
-    manuscript:          'entry.1989777939', // 8. Will you also submit a manuscript?*   (РѕРґРЅР° РІС–РґРїРѕРІС–РґСЊ: Yes / РўР°Рє, No / РќС–)
-    track:               'entry.827067813',  // 9. Section / РЎРµРєС†С–СЏ*                     (СЃРїР°РґРЅРёР№ СЃРїРёСЃРѕРє, 7 РЅР°РїСЂСЏРјС–РІ)
-    invitation:          'entry.92996121',   // 10. Official invitation letter needed?*  (СЃРїР°РґРЅРёР№ СЃРїРёСЃРѕРє: Yes / РўР°Рє, No / РќС–)
-    comments:            'entry.56441724',   // 11. Additional comments                  (Р°Р±Р·Р°С†, РЅРµРѕР±РѕРІ'СЏР·РєРѕРІРѕ)
-    consent:             'entry.1005259744'  // 12. Personal data consent*               (РїСЂР°РїРѕСЂРµС†СЊ, РѕР±РѕРІ'СЏР·РєРѕРІРѕ)
+  /* ---------------- CONFIG ----------------
+     Посилання на Google Форми (спільні для обох мовних версій оболонки). */
+  var CONFIG = {
+    formRegister:   'https://docs.google.com/forms/d/e/1FAIpQLSdxdPOvQjJInTRvGx4NsOHXSLHTFnOg0qCA3tbSlppZh60Ixg/viewform', // Google Форма реєстрації учасника
+    formManuscript: 'https://docs.google.com/forms/d/e/1FAIpQLSddkgbjBamb9azn797-LnBNMxwxtOL-ZTqVl4OHFqUGUPqhlQ/viewform', // Google Форма подання рукопису (з полем для файлу статті)
+    formRevision:   'https://docs.google.com/forms/d/e/1FAIpQLScPdOzB5D_QVOnM_coKDrN0B0gJfB8Dkpa2RnMLbdy2IvuJFw/viewform' // Google Форма відповіді на зауваження рецензентів
   };
-  // РЈСЃС– 12 ID РѕС‚СЂРёРјР°РЅРѕ 14.09.2026 Р· СЂРµР°Р»СЊРЅРѕРіРѕ "РїРѕРїРµСЂРµРґРЅСЊРѕ Р·Р°РїРѕРІРЅРµРЅРѕРіРѕ РїРѕСЃРёР»Р°РЅРЅСЏ" РЅР°
-  // https://docs.google.com/forms/d/e/1FAIpQLSdwqWPuzFFKsdwnMMCotq0PuHwJR8X5P5rp6mPKCxGLLWf7Qg/viewform,
-  // РЅР°РґС–СЃР»Р°РЅРѕРіРѕ РєРѕСЂРёСЃС‚СѓРІР°С‡РµРј вЂ” С†Рµ РїС–РґС‚РІРµСЂРґР¶РµРЅС–, РЅРµ РІРёРіР°РґР°РЅС– Р·РЅР°С‡РµРЅРЅСЏ.
-  var REGISTRATION_DEADLINE = null; // РЅР°РїСЂ.: new Date(2026,10,20) вЂ” СЏРєС‰Рѕ РѕСЂРіРєРѕРјС–С‚РµС‚ РІСЃС‚Р°РЅРѕРІРёС‚СЊ РѕРєСЂРµРјРёР№ РґРµРґР»Р°Р№РЅ СЂРµС”СЃС‚СЂР°С†С–С—; РїРѕРєРё РЅРµ Р·Р°РґР°РЅРѕ, РґР°С‚Р° РЅС–РґРµ РЅРµ РїРѕРєР°Р·СѓС”С‚СЊСЃСЏ
-
-  function isRegistrationConfigured(){
-    if(!REGISTRATION_FORM_URL) return false;
-    return Object.keys(REGISTRATION_ENTRY_IDS).every(function(k){ return !!REGISTRATION_ENTRY_IDS[k]; });
-  }
-  function toFormResponseUrl(url){
-    var base = (url || '').split('?')[0];
-    if(/\/viewform\/?$/.test(base)) return base.replace(/\/viewform\/?$/, '/formResponse');
-    return base;
-  }
-
-  /* ================================================================
-     РџРћР”РђРќРќРЇ Р РЈРљРћРџРРЎРЈ РўРђ Р”РћРћРџР РђР¦Р¬РћР’РђРќР† Р’Р•Р РЎР†Р‡ вЂ” Google Р¤РѕСЂРјРё (РѕРїС†С–Р№РЅРѕ)
-     ------------------------------------------------------------
-     Р¦С– РґРІС– С„РѕСЂРјРё РІР±СѓРґРѕРІСѓСЋС‚СЊСЃСЏ РЅР° СЃС‚РѕСЂС–РЅС†С– СЏРє Р·РІРёС‡Р°Р№РЅР° Google Р¤РѕСЂРјР°
-     (iframe) вЂ” Р¶РѕРґРЅРёС… entry.NNNN С–РґРµРЅС‚РёС„С–РєР°С‚РѕСЂС–РІ С€СѓРєР°С‚Рё РЅРµ РїРѕС‚СЂС–Р±РЅРѕ,
-     РґРѕСЃС‚Р°С‚РЅСЊРѕ РїСѓР±Р»С–С‡РЅРѕРіРѕ РїРѕСЃРёР»Р°РЅРЅСЏ "РќР°РґС–СЃР»Р°С‚Рё" в†’ Р·РЅР°С‡РѕРє РїРѕСЃРёР»Р°РЅРЅСЏ.
-     РќР°СЏРІРЅРёР№ РјРµС…Р°РЅС–Р·Рј РїРѕРґР°РЅРЅСЏ РїРѕС€С‚РѕСЋ (mailto) Р·Р°Р»РёС€Р°С”С‚СЊСЃСЏ СЏРє
-     Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРЅРёР№ СЃРїРѕСЃС–Р± С– РЅС–РєСѓРґРё РЅРµ Р·РЅРёРєР°С”.
-     ================================================================ */
-  var SUBMIT_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdFeLDhwkdYOP-1IdWtcSH491lzuuufRo3VIUVeNYKwuDoIXw/viewform';   // Google Р¤РѕСЂРјР° РїРѕРґР°РЅРЅСЏ СЂСѓРєРѕРїРёСЃСѓ (РїС–РґС‚РІРµСЂРґР¶РµРЅРѕ РєРѕСЂРёСЃС‚СѓРІР°С‡РµРј)
-  var REVISION_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSea2YwsBlUkbgt0FElYr0F_UAM-BpfawDZgTxifrGiSzHK6tQ/viewform'; // Google Р¤РѕСЂРјР° РґР»СЏ РґРѕРѕРїСЂР°С†СЊРѕРІР°РЅРѕС— РІРµСЂСЃС–С— / РІС–РґРїРѕРІС–РґС– РЅР° Р·Р°СѓРІР°Р¶РµРЅРЅСЏ (РїС–РґС‚РІРµСЂРґР¶РµРЅРѕ РєРѕСЂРёСЃС‚СѓРІР°С‡РµРј)
-  function toEmbedUrl(url){
-    if(!url) return '';
-    return url + (url.indexOf('?') === -1 ? '?embedded=true' : '&embedded=true');
-  }
 
   /* ---------------- BILINGUAL DATA ---------------- */
   var ORGS = [
-    { uk:"РњС–РЅС–СЃС‚РµСЂСЃС‚РІРѕ РѕСЃРІС–С‚Рё С– РЅР°СѓРєРё РЈРєСЂР°С—РЅРё", en:"Ministry of Education and Science of Ukraine" },
-    { uk:"РќР°С†С–РѕРЅР°Р»СЊРЅР° Р°РєР°РґРµРјС–СЏ РЅР°СѓРє РЈРєСЂР°С—РЅРё", en:"National Academy of Sciences of Ukraine" },
-    { uk:"РќР°С†С–РѕРЅР°Р»СЊРЅР° Р°РєР°РґРµРјС–СЏ РЅР°СѓРє РІРёС‰РѕС— РѕСЃРІС–С‚Рё РЈРєСЂР°С—РЅРё", en:"National Academy of Sciences of Higher Education of Ukraine" },
-    { uk:"Р†РЅСЃС‚РёС‚СѓС‚ РїСЂРѕР±Р»РµРј С€С‚СѓС‡РЅРѕРіРѕ С–РЅС‚РµР»РµРєС‚Сѓ (РЈРєСЂР°С—РЅР°)", en:"Institute of Artificial Intelligence Problems (Ukraine)" },
-    { uk:"Р’С–РЅРЅРёС†СЊРєРёР№ РЅР°С†С–РѕРЅР°Р»СЊРЅРёР№ С‚РµС…РЅС–С‡РЅРёР№ СѓРЅС–РІРµСЂСЃРёС‚РµС‚ (РЈРєСЂР°С—РЅР°)", en:"Vinnytsia National Technical University (Ukraine)" },
-    { uk:"Engineering Academy of Serbia (EAS), Belgrade (Serbia)", en:"Engineering Academy of Serbia (EAS), Belgrade (Serbia)" },
+    { uk:"Міністерство освіти і науки України", en:"Ministry of Education and Science of Ukraine" },
+    { uk:"Національна академія наук України", en:"National Academy of Sciences of Ukraine" },
+    { uk:"Національна академія наук вищої освіти України", en:"National Academy of Higher Education Sciences of Ukraine" },
+    { uk:"Вінницький національний технічний університет (Україна)", en:"Vinnytsia National Technical University (Ukraine)" },
+    { uk:"Центр академічної етики та досконалості в освіті «Етос» (Україна)", en:"Ethos Center for Academic Integrity and Excellence in Education (Ukraine)" },
+    { uk:"Engineering Academy of Serbia (IAS), Belgrade (Serbia)", en:"Engineering Academy of Serbia (IAS), Belgrade (Serbia)" },
     { uk:"University of Szeged (Hungary)", en:"University of Szeged (Hungary)" },
     { uk:"Apeiron University in Banja Luka (Bosnia and Herzegovina)", en:"Apeiron University in Banja Luka (Bosnia and Herzegovina)" },
-    { uk:"DAAAM International Vienna (Austria)", en:"DAAAM International Vienna (Austria)" },
     { uk:"Mechanical Engineering Faculty in Slavonski Brod, J.J. Strossmayer University of Osijek (Croatia)", en:"Mechanical Engineering Faculty in Slavonski Brod, J.J. Strossmayer University of Osijek (Croatia)" },
     { uk:"University of Montenegro, Faculty of Mechanical Engineering (Montenegro)", en:"University of Montenegro, Faculty of Mechanical Engineering (Montenegro)" },
-    { uk:"University of Zielona GГіra (Poland)", en:"University of Zielona GГіra (Poland)" },
-    { uk:"Р”РѕРЅР±Р°СЃСЊРєР° РґРµСЂР¶Р°РІРЅР° РјР°С€РёРЅРѕР±СѓРґС–РІРЅР° Р°РєР°РґРµРјС–СЏ (РЈРєСЂР°С—РЅР°)", en:"Donbas State Engineering Academy (Ukraine)" },
-    { uk:"РўРµСЂРЅРѕРїС–Р»СЊСЃСЊРєРёР№ РЅР°С†С–РѕРЅР°Р»СЊРЅРёР№ С‚РµС…РЅС–С‡РЅРёР№ СѓРЅС–РІРµСЂСЃРёС‚РµС‚ С–РјРµРЅС– Р†РІР°РЅР° РџСѓР»СЋСЏ (РЈРєСЂР°С—РЅР°)", en:"Ivan Puluj Ternopil National Technical University (Ukraine)" },
-    { uk:"РџСЂРѕР±Р»РµРјРЅР° Р»Р°Р±РѕСЂР°С‚РѕСЂС–СЏ РјРѕР±С–Р»СЊРЅРёС… С–РЅС‚РµР»РµРєС‚СѓР°Р»СЊРЅРёС… С‚РµС…РЅРѕР»РѕРіС–С‡РЅРёС… РјР°С€РёРЅ (РЈРєСЂР°С—РЅР°)", en:"Problem Laboratory of Mobile Intelligent Technological Machines (Ukraine)" }
+    { uk:"Zhejiang Normal University, College of Engineering (China)", en:"Zhejiang Normal University, College of Engineering (China)" },
+    { uk:"Інститут проблем штучного інтелекту (Україна)", en:"Institute of Artificial Intelligence Problems (Ukraine)" },
+    { uk:"Вінницький національний аграрний університет (Україна)", en:"Vinnytsia National Agrarian University (Ukraine)" },
+    { uk:"Донбаський державний педагогічний університет (Україна)", en:"Donbas State Pedagogical University (Ukraine)" },
+    { uk:"Донбаська державна машинобудівна академія (Україна)", en:"Donbas State Engineering Academy (Ukraine)" },
+    { uk:"Тернопільський національний технічний університет імені Івана Пулюя (Україна)", en:"Ivan Puluj Ternopil National Technical University (Ukraine)" },
+    { uk:"Херсонський національний технічний університет (Україна)", en:"Kherson National Technical University (Ukraine)" },
+    { uk:"Кафедра технологій та автоматизації машинобудування ВНТУ (Україна)", en:"Department of Mechanical Engineering Technologies and Automation, VNTU (Ukraine)" }
   ];
 
-  /* role, name, aff carry both languages; email/phone are given only where the invitation states them */
   var COMMITTEE = [
-    { uk:{role:"Р“РѕР»РѕРІР° РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ", name:"РљРѕРІР°Р»РµРІСЃСЊРєРёР№ РЎРµСЂРіС–Р№ Р’Р°РґРёРјРѕРІРёС‡", aff:"Рґ.С‚.РЅ., РїСЂРѕС„., РїСЂРѕС„РµСЃРѕСЂ РєР°С„РµРґСЂРё С‚РµС…РЅРѕР»РѕРіС–Р№ С‚Р° Р°РІС‚РѕРјР°С‚РёР·Р°С†С–С— РјР°С€РёРЅРѕР±СѓРґСѓРІР°РЅРЅСЏ Р’РќРўРЈ"},
-      en:{role:"Chair of the Organizing Committee", name:"Sergiy Kovalevskyy", aff:"Dr.Sc. (Eng.), Prof., Department of Mechanical Engineering Technologies and Automation, VNTU"},
-      email:EMAIL, phone:PHONE },
-    { uk:{role:"РЎРїС–РІРіРѕР»РѕРІР° РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ", name:"DaЕЎiД‡ Predrag", aff:"Hon.D.Sc., Engineering Academy of Serbia (IAS), Belgrade (Serbia)"},
-      en:{role:"Co-Chair of the Organizing Committee", name:"DaЕЎiД‡ Predrag", aff:"Hon.D.Sc., Engineering Academy of Serbia (IAS), Belgrade (Serbia)"},
-      email:"", phone:"" },
-    { uk:{role:"РЎРїС–РІРіРѕР»РѕРІР° РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ", name:"Gyula Mester", aff:"Dr.Sc., РїСЂРѕС„., Academic, University of Szeged (Hungary)"},
-      en:{role:"Co-Chair of the Organizing Committee", name:"Gyula Mester", aff:"Dr.Sc., Professor, Academic, University of Szeged (Hungary)"},
-      email:"", phone:"" },
-    { uk:{role:"Р§Р»РµРЅ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ", name:"РљРѕР·Р»РѕРІ Р›РµРѕРЅС–Рґ Р“РµРЅРЅР°РґС–Р№РѕРІРёС‡", aff:"Рґ.С‚.РЅ., РїСЂРѕС„., РїСЂРѕС„РµСЃРѕСЂ РєР°С„РµРґСЂРё С‚РµС…РЅРѕР»РѕРіС–Р№ С‚Р° Р°РІС‚РѕРјР°С‚РёР·Р°С†С–С— РјР°С€РёРЅРѕР±СѓРґСѓРІР°РЅРЅСЏ Р’РќРўРЈ"},
-      en:{role:"Organizing Committee Member", name:"Leonid Kozlov", aff:"Dr.Sc. (Eng.), Prof., Department of Mechanical Engineering Technologies and Automation, VNTU"},
-      email:"osna2030@gmail.com", phone:"" },
-    { uk:{role:"Р§Р»РµРЅ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ", name:"Р РµРїС–РЅСЃСЊРєРёР№ РЎРµСЂРіС–Р№ Р’РѕР»РѕРґРёРјРёСЂРѕРІРёС‡", aff:"Рє.С‚.РЅ., РґРѕС†РµРЅС‚ РєР°С„РµРґСЂРё С‚РµС…РЅРѕР»РѕРіС–Р№ С‚Р° Р°РІС‚РѕРјР°С‚РёР·Р°С†С–С— РјР°С€РёРЅРѕР±СѓРґСѓРІР°РЅРЅСЏ Р’РќРўРЈ"},
-      en:{role:"Organizing Committee Member", name:"Serhii Repinskyi", aff:"Ph.D. (Eng.), Associate Professor, Department of Mechanical Engineering Technologies and Automation, VNTU"},
-      email:"repinskyisv@gmail.com", phone:"" }
+    { uk:["Predrag Dašić","Hon.D.Sc., Prof., Academy of Professional Studies Šumadija, Trstenik (Serbia)"], en:["Predrag Dašić","Hon.D.Sc., Prof., Academy of Professional Studies Šumadija, Trstenik (Serbia)"] },
+    { uk:["Gyula Mester","Dr.Sc., Prof., Academic, University of Szeged (Hungary)"], en:["Gyula Mester","Dr.Sc., Prof., Academic, University of Szeged (Hungary)"] },
+    { uk:["Jenek Mariusz","Dr. inż., Universitet Zielonogorski (Poland)"], en:["Jenek Mariusz","Dr. inż., Universitet Zielonogorski (Poland)"] },
+    { uk:["Vlatko Marušić","Dr.Sc., Prof., J.J. Strossmayer University of Osijek (Croatia)"], en:["Vlatko Marušić","Dr.Sc., Prof., J.J. Strossmayer University of Osijek (Croatia)"] },
+    { uk:["Sandra Poirier","Doctor of Education, Prof., Middle Tennessee State University (USA)"], en:["Sandra Poirier","Doctor of Education, Prof., Middle Tennessee State University (USA)"] },
+    { uk:["Domenico Guida","Dr.Sc., Prof., University of Salerno (Italy)"], en:["Domenico Guida","Dr.Sc., Prof., University of Salerno (Italy)"] },
+    { uk:["Isak Karabegović","Dr.Sc., Prof., Academy of Sciences and Arts of Bosnia and Herzegovina"], en:["Isak Karabegović","Dr.Sc., Prof., Academy of Sciences and Arts of Bosnia and Herzegovina"] },
+    { uk:["Zdravko Krivokapić","Dr.Sc., Prof., University of Montenegro"], en:["Zdravko Krivokapić","Dr.Sc., Prof., University of Montenegro"] },
+    { uk:["Dragoljub Mirjanić","Dr.Sc., Prof., Academy of Sciences and Arts of the Republika Srpska"], en:["Dragoljub Mirjanić","Dr.Sc., Prof., Academy of Sciences and Arts of the Republika Srpska"] },
+    { uk:["Valentin Nedeff","Dr.Sc., Prof., University of Bacău (Romania)"], en:["Valentin Nedeff","Dr.Sc., Prof., University of Bacău (Romania)"] },
+    { uk:["Alexandru-Viorel Pele","Dr.Sc., Prof., Dean, University of Oradea (Romania)"], en:["Alexandru-Viorel Pele","Dr.Sc., Prof., Dean, University of Oradea (Romania)"] },
+    { uk:["Raul Turmanidze","Georgian Technical University (Georgia)"], en:["Raul Turmanidze","Georgian Technical University (Georgia)"] },
+    { uk:["Iliya Zhelezarov","Dr.Sc., Prof., Technical University of Gabrovo (Bulgaria)"], en:["Iliya Zhelezarov","Dr.Sc., Prof., Technical University of Gabrovo (Bulgaria)"] },
+    { uk:["Дмитрієв Д. О.","д.т.н., проф., ХНТУ, м. Херсон"], en:["Dmytriiev D. O.","Dr.Sc. (Eng.), Prof., Kherson National Technical University"] },
+    { uk:["Єпіфанова І. Ю.","д.е.н., проф., ВНТУ, м. Вінниця"], en:["Yepifanova I. Yu.","Dr.Sc. (Econ.), Prof., Vinnytsia National Technical University"] },
+    { uk:["Клименко С. А.","д.т.н., проф., ІНМ НАНУ, м. Київ"], en:["Klymenko S. A.","Dr.Sc. (Eng.), Prof., Institute for Superhard Materials of NAS of Ukraine, Kyiv"] },
+    { uk:["Ковалевський С. В.","д.т.н., проф., ДДМА, м. Краматорськ"], en:["Kovalevskyy S.V.","Dr.Sc. (Eng.), Prof., Donbas State Engineering Academy, Kramatorsk"] },
+    { uk:["Козлов Л. Г.","д.т.н., проф., ВНТУ, м. Вінниця"], en:["Kozlov L. H.","Dr.Sc. (Eng.), Prof., Vinnytsia National Technical University"] },
+    { uk:["Колосов Д. Л.","д.т.н., проф., НУ «Дніпровська політехніка»"], en:["Kolosov D. L.","Dr.Sc. (Eng.), Prof., Dnipro University of Technology"] },
+    { uk:["Кузнецов Ю. М.","д.т.н., проф., НТУУ «КПІ» ім. І. Сікорського"], en:["Kuznetsov Yu. M.","Dr.Sc. (Eng.), Prof., Igor Sikorsky Kyiv Polytechnic Institute"] },
+    { uk:["Кухаренко В. М.","к.т.н., проф., ХНАДУ, м. Харків"], en:["Kukharenko V. M.","Ph.D. (Eng.), Prof., Kharkiv National Automobile and Highway University"] },
+    { uk:["Мазур М. П.","д.т.н., проф., ХНУ, м. Хмельницький"], en:["Mazur M. P.","Dr.Sc. (Eng.), Prof., Khmelnytskyi National University"] },
+    { uk:["Набока О. Г.","д.п.н., проф., ДДПУ, м. Слов'янськ"], en:["Naboka O. H.","Dr.Sc. (Ped.), Prof., Donbas State Pedagogical University, Sloviansk"] },
+    { uk:["Новіков Ф. В.","д.т.н., проф., ХНЕУ, м. Харків"], en:["Novikov F. V.","Dr.Sc. (Eng.), Prof., Simon Kuznets Kharkiv National University of Economics"] },
+    { uk:["Петров О. В.","к.т.н., доц., ВНТУ, м. Вінниця"], en:["Petrov O. V.","Ph.D. (Eng.), Assoc. Prof., Vinnytsia National Technical University"] },
+    { uk:["Сапон С. П.","к.т.н., доц., НТУУ «КПІ» ім. І. Сікорського"], en:["Sapon S. P.","Ph.D. (Eng.), Assoc. Prof., Igor Sikorsky Kyiv Polytechnic Institute"] },
+    { uk:["Сарібєкова Ю. Г.","д.т.н., проф., ХНТУ, м. Херсон"], en:["Saribiekova Yu. H.","Dr.Sc. (Eng.), Prof., Kherson National Technical University"] },
+    { uk:["Сухоруков С. І.","к.т.н., доц., ВНТУ, м. Вінниця"], en:["Sukhorukov S. I.","Ph.D. (Eng.), Assoc. Prof., Vinnytsia National Technical University"] }
   ];
 
   var SECTIONS = [
-    { n:1, uk:{ title:"Р†РЅС‚РµР»РµРєС‚СѓР°Р»СЊРЅС– РјРѕРґРµР»С– С‚Р° Р°Р»РіРѕСЂРёС‚РјРё РіР»РёР±РёРЅРЅРѕРіРѕ РЅР°РІС‡Р°РЅРЅСЏ", text:"Р РѕР·РІРёС‚РѕРє РµС„РµРєС‚РёРІРЅРёС… Р°СЂС…С–С‚РµРєС‚СѓСЂ С– РјРµС‚РѕРґС–РІ РЅР°РІС‡Р°РЅРЅСЏ, С‰Рѕ Р·Р°Р±РµР·РїРµС‡СѓСЋС‚СЊ С–РЅС‚РµСЂРїСЂРµС‚РѕРІР°РЅС–СЃС‚СЊ, РµРЅРµСЂРіРѕРµС„РµРєС‚РёРІРЅС–СЃС‚СЊ С– РґРѕРІС–СЂСѓ РґРѕ РЁР†-СЃРёСЃС‚РµРј вЂ” РєР»СЋС‡РѕРІРёР№ РІРёРєР»РёРє СЃСѓС‡Р°СЃРЅРѕС— РЅР°СѓРєРё." },
-           en:{ title:"Deep Learning Models and Algorithms", text:"Developing efficient architectures and training methods that ensure interpretability, energy efficiency, and trust in AI systems is a key challenge of contemporary science." } },
-    { n:2, uk:{ title:"Р¦РёС„СЂРѕРІС– РґРІС–Р№РЅРёРєРё С‚Р° РєС–Р±РµСЂС„С–Р·РёС‡РЅС– СЃРёСЃС‚РµРјРё РІ РјР°С€РёРЅРѕР±СѓРґСѓРІР°РЅРЅС–", text:"Р’РёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ С†РёС„СЂРѕРІРёС… РґРІС–Р№РЅРёРєС–РІ РґР»СЏ РјРѕРґРµР»СЋРІР°РЅРЅСЏ, РїСЂРѕРіРЅРѕР·СѓРІР°РЅРЅСЏ С‚Р° РѕРїС‚РёРјС–Р·Р°С†С–С— РІРёСЂРѕР±РЅРёС‡РёС… РїСЂРѕС†РµСЃС–РІ С„РѕСЂРјСѓС” РѕСЃРЅРѕРІСѓ С–РЅРґСѓСЃС‚СЂС–С— 5.0." },
-           en:{ title:"Digital Twins and Cyber-Physical Systems in Engineering", text:"Using digital twins for modeling, forecasting, and optimizing production processes forms the foundation of Industry 5.0." } },
-    { n:3, uk:{ title:"Р†РЅС‚РµР»РµРєС‚СѓР°Р»СЊРЅС– РІРёСЂРѕР±РЅРёС‡С– СЃРёСЃС‚РµРјРё С‚Р° Smart Manufacturing", text:"Р†РЅС‚РµРіСЂР°С†С–СЏ РЁР†, СЂРѕР±РѕС‚РѕС‚РµС…РЅС–РєРё С‚Р° Р°РЅР°Р»С–С‚РёРєРё РґР°РЅРёС… Сѓ РІРёСЂРѕР±РЅРёС‡С– РїСЂРѕС†РµСЃРё РїС–РґРІРёС‰СѓС” РїСЂРѕРґСѓРєС‚РёРІРЅС–СЃС‚СЊ, Р°РґР°РїС‚РёРІРЅС–СЃС‚СЊ С– СЃС‚Р°Р»РёР№ СЂРѕР·РІРёС‚РѕРє РїС–РґРїСЂРёС”РјСЃС‚РІ." },
-           en:{ title:"AI-Driven Manufacturing Systems", text:"Integrating AI, robotics, and data analytics into production processes increases enterprise productivity, adaptability, and sustainability." } },
-    { n:4, uk:{ title:"РќРµР№СЂРѕРјРµСЂРµР¶РµРІС– С‚РµС…РЅРѕР»РѕРіС–С— РІ Р°РІС‚РѕРЅРѕРјРЅРёС… С– РјРѕР±С–Р»СЊРЅРёС… СЂРѕР±РѕС‚РѕС‚РµС…РЅС–С‡РЅРёС… СЃРёСЃС‚РµРјР°С…", text:"РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚ Р·Р°Р±РµР·РїРµС‡СѓС” Р°РІС‚РѕРЅРѕРјРЅС–СЃС‚СЊ С– Р±РµР·РїРµРєСѓ СЂРѕР±РѕС‚РёР·РѕРІР°РЅРёС… СЃРёСЃС‚РµРј Сѓ РїСЂРѕРјРёСЃР»РѕРІРѕСЃС‚С–, С‚СЂР°РЅСЃРїРѕСЂС‚С– С‚Р° РѕР±РѕСЂРѕРЅРЅРёС… Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏС…." },
-           en:{ title:"AI in Autonomous and Robotic Systems", text:"Artificial intelligence ensures the autonomy and safety of robotic systems in industry, transportation, and defense applications." } },
-    { n:5, uk:{ title:"AI-РєРµСЂРѕРІР°РЅРµ СѓРїСЂР°РІР»С–РЅРЅСЏ, РѕРїС‚РёРјС–Р·Р°С†С–СЏ С‚Р° РґС–Р°РіРЅРѕСЃС‚РёРєР° С‚РµС…РЅС–С‡РЅРёС… СЃРёСЃС‚РµРј", text:"Р’РёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ РЅРµР№СЂРѕРјРµСЂРµР¶ РґР»СЏ РїСЂРѕРіРЅРѕР·РЅРѕРіРѕ РѕР±СЃР»СѓРіРѕРІСѓРІР°РЅРЅСЏ, Р°РґР°РїС‚РёРІРЅРѕРіРѕ РєРµСЂСѓРІР°РЅРЅСЏ С‚Р° Р·РјРµРЅС€РµРЅРЅСЏ РµРЅРµСЂРіРѕСЃРїРѕР¶РёРІР°РЅРЅСЏ РїС–РґРІРёС‰СѓС” РµС„РµРєС‚РёРІРЅС–СЃС‚СЊ СЃРєР»Р°РґРЅРёС… С‚РµС…РЅС–С‡РЅРёС… РѕР±'С”РєС‚С–РІ." },
-           en:{ title:"AI-Based Control and Predictive Maintenance", text:"Using neural networks for predictive maintenance, adaptive control, and reduced energy consumption improves the efficiency of complex technical systems." } },
-    { n:6, uk:{ title:"РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚ РІ РѕСЃРІС–С‚С– С‚Р° СЃРѕС†С–Р°Р»СЊРЅРѕ-РµРєРѕРЅРѕРјС–С‡РЅРёС… СЃРёСЃС‚РµРјР°С…", text:"Р†РЅС‚РµР»РµРєС‚СѓР°Р»СЊРЅС– СЃРёСЃС‚РµРјРё РІС–РґРєСЂРёРІР°СЋС‚СЊ РЅРѕРІС– РјРѕР¶Р»РёРІРѕСЃС‚С– РїРµСЂСЃРѕРЅР°Р»С–Р·РѕРІР°РЅРѕРіРѕ РЅР°РІС‡Р°РЅРЅСЏ, СѓРїСЂР°РІР»С–РЅРЅСЏ Р·РЅР°РЅРЅСЏРјРё С‚Р° РѕРїС‚РёРјС–Р·Р°С†С–С— СЃСѓСЃРїС–Р»СЊРЅРёС… РїСЂРѕС†РµСЃС–РІ." },
-           en:{ title:"AI in Education and Socio-Economic Systems", text:"Intelligent systems open new possibilities for personalized learning, knowledge management, and the optimization of social processes." } },
-    { n:7, uk:{ title:"Р•С‚РёС‡РЅС–, С„С–Р»РѕСЃРѕС„СЃСЊРєС– С‚Р° РїСЂР°РІРѕРІС– Р°СЃРїРµРєС‚Рё Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ РЁР†", text:"Р¤РѕСЂРјСѓРІР°РЅРЅСЏ РµС‚РёС‡РЅРёС… СЃС‚Р°РЅРґР°СЂС‚С–РІ С– РЅРѕСЂРјР°С‚РёРІРЅРёС… СЂР°РјРѕРє РґР»СЏ СЂРѕР·РІРёС‚РєСѓ РЁР† С” РєСЂРёС‚РёС‡РЅРѕ РІР°Р¶Р»РёРІРёРј РґР»СЏ РіР°СЂРјРѕРЅС–Р№РЅРѕС— С–РЅС‚РµРіСЂР°С†С–С— С‚РµС…РЅРѕР»РѕРіС–Р№ Сѓ СЃСѓСЃРїС–Р»СЊСЃС‚РІРѕ." },
-           en:{ title:"Ethics, Philosophy, and Regulation of AI", text:"Establishing ethical standards and regulatory frameworks for AI development is critically important for the harmonious integration of technology into society." } }
+    { n:1,
+      uk:{ title:"Доступ до вищої освіти та наукових ресурсів", items:[
+        "Прозорий вступ; перехід «школа → університет»; підготовчі STEM-курси.",
+        "Очні, змішані й дистанційні формати; спільні курси між університетами; віддалені лабораторії.",
+        "Відкриті матеріали та інструменти; безпечна лабораторна робота.",
+        "Підтримка вразливих груп: стипендії, мікрогранти, житло, психологічна допомога.",
+        "Освітньо-наукові хаби: партнерства університетів із бізнесом і громадами."
+      ]},
+      en:{ title:"Access to Higher Education and Research Resources", items:[
+        "Transparent admissions; the school-to-university transition; preparatory STEM courses.",
+        "On-site, blended, and distance formats; inter-university joint courses; remote laboratories.",
+        "Open educational resources and tools; safe laboratory practice.",
+        "Support for vulnerable groups: scholarships, micro-grants, housing, psychological support.",
+        "Education and research hubs: university partnerships with business and communities."
+      ]}
+    },
+    { n:2,
+      uk:{ title:"Якість університетського навчання і підготовка до досліджень", items:[
+        "Оновлення змісту під потреби сучасної економіки; міжпредметність; навчання через проєкти.",
+        "Наставництво: індивідуальні траєкторії, робота в наукових групах, академічне письмо.",
+        "Практикоорієнтоване навчання: спільні проєкти з бізнесом, кейси з відкритими даними.",
+        "Підтримувальне середовище: профілактика вигорання, культура взаємодопомоги.",
+        "Якість і доброчесність: відкриті матеріали курсів і лабораторні інструкції."
+      ]},
+      en:{ title:"Quality of University Education and Research Training", items:[
+        "Updating curricula for the needs of the modern economy; interdisciplinarity; project-based learning.",
+        "Mentoring: individual learning paths, work in research groups, academic writing.",
+        "Practice-oriented learning: joint projects with business, case studies using open data.",
+        "A supportive environment: burnout prevention, a culture of mutual support.",
+        "Quality and integrity: open course materials and laboratory instructions."
+      ]}
+    },
+    { n:3,
+      uk:{ title:"Визнання результатів навчання і досягнень здобувачів", items:[
+        "Короткі курси з електронним сертифікатом (літні школи, хакатони, проєктні модулі).",
+        "Врахування попереднього навчання: е-портфоліо, студентські журнали, конкурси (МАН).",
+        "Перезарахування кредитів, спільні програми та подвійні дипломи.",
+        "Надійні електронні сертифікати для працевлаштування й вступу в магістратуру.",
+        "Міжнародна присутність: участь у відкритих наукових платформах і мережах."
+      ]},
+      en:{ title:"Recognition of Learning Outcomes and Student Achievements", items:[
+        "Short courses with digital certificates (summer schools, hackathons, project modules).",
+        "Recognition of prior learning: e-portfolios, student journals, competitions (Junior Academy of Sciences).",
+        "Credit transfer, joint programs, and double degrees.",
+        "Trusted digital certificates for employment and admission to master's programs.",
+        "International presence: participation in open research platforms and networks."
+      ]}
+    },
+    { n:4,
+      uk:{ title:"Управління, фінансування та відповідальне використання технологій", items:[
+        "Підтримка студентських досліджень: фонди, мікрогранти, конкурси.",
+        "Співпраця «університет — індустрія — громада»: спільні лабораторії, замовні дослідження.",
+        "Технологічна екосистема: керування даними, інструменти ШІ з правилами безпеки й етики.",
+        "Розвиток викладачів: підвищення кваліфікації, спільноти практики.",
+        "Стійкість і безперервність: кризові плани для курсів і лабораторій, автономні рішення."
+      ]},
+      en:{ title:"Governance, Funding, and Responsible Use of Technology", items:[
+        "Support for student research: funds, micro-grants, competitions.",
+        "University–industry–community cooperation: joint laboratories, commissioned research.",
+        "A technology ecosystem: data governance, AI tools with safety and ethics guidelines.",
+        "Faculty development: professional development, communities of practice.",
+        "Resilience and continuity: crisis plans for courses and laboratories, autonomous solutions."
+      ]}
+    },
+    { n:5,
+      uk:{ title:"Юні науковці: старт у дослідженнях і наставництво", items:[
+        "Програми для юних науковців: гуртки, літні школи, хакатони, наукові клуби.",
+        "Маршрути «школа → університет»: стажування, участь у лабораторних проєктах.",
+        "Портфоліо й перші публікації: відкриті репозиторії; етика досліджень.",
+        "Підтримка та визнання: міні-гранти, стипендії, конкурси, сертифікати."
+      ]},
+      en:{ title:"Young Researchers: Getting Started in Research and Mentoring", items:[
+        "Programs for young researchers: clubs, summer schools, hackathons, science clubs.",
+        "School-to-university pathways: internships, participation in laboratory projects.",
+        "Portfolios and first publications: open repositories; research ethics.",
+        "Support and recognition: micro-grants, scholarships, competitions, certificates."
+      ]}
+    }
   ];
 
-  var CONTACTS = COMMITTEE; // same people, rendered with email/phone on the Contacts page
+  var CONTACTS = [
+    { uk:{ role:"Голова оргкомітету", name:"Ковалевський Сергій Вадимович", aff:"д.т.н., проф., професор кафедри технологій та автоматизації машинобудування ВНТУ" },
+      en:{ role:"Chair of the Organizing Committee", name:"Sergiy Kovalevskyy", aff:"Dr.Sc. (Eng.), Prof., Department of Mechanical Engineering Technologies and Automation, VNTU" },
+      email:"kovalevskii61@gmail.com", phone:"+380504780394" },
+    { uk:{ role:"Співголова оргкомітету", name:"Dašić Predrag", aff:"Hon.D.Sc., Prof., Engineering Academy of Serbia (IAS)" },
+      en:{ role:"Co-Chair of the Organizing Committee", name:"Dašić Predrag", aff:"Hon.D.Sc., Prof., Engineering Academy of Serbia (IAS)" },
+      email:"dasicp58@gmail.com", phone:"" },
+    { uk:{ role:"Співголова оргкомітету", name:"Козлов Леонід Геннадійович", aff:"д.т.н., проф., професор кафедри технологій та автоматизації машинобудування ВНТУ" },
+      en:{ role:"Co-Chair of the Organizing Committee", name:"Leonid Kozlov", aff:"Dr.Sc. (Eng.), Prof., Department of Mechanical Engineering Technologies and Automation, VNTU" },
+      email:"osna2030@gmail.com", phone:"+380972120533" },
+    { uk:{ role:"Член оргкомітету", name:"Репінський Сергій Володимирович", aff:"к.т.н., доцент кафедри технологій та автоматизації машинобудування ВНТУ" },
+      en:{ role:"Organizing Committee Member", name:"Serhii Repinskyi", aff:"Ph.D. (Eng.), Associate Professor, Department of Mechanical Engineering Technologies and Automation, VNTU" },
+      email:"repinskyisv@gmail.com", phone:"" }
+  ];
 
   var CHECKLIST = [
-    { uk:{ group:"РћР±СЃСЏРі С– С„Р°Р№Р»", items:[ "РЎС‚Р°С‚С‚СЏ вЂ” РґРѕ 10 СЃС‚РѕСЂС–РЅРѕРє, РїРѕРґР°С”С‚СЊСЃСЏ РѕРґРЅРёРј С„Р°Р№Р»РѕРј." ]},
-      en:{ group:"Length and file", items:[ "The article is up to 10 pages, submitted as a single file." ]} },
-    { uk:{ group:"РўРёС‚СѓР»СЊРЅР° СЃС‚РѕСЂС–РЅРєР°", items:[
-        "РЈР”Рљ РІРєР°Р·Р°РЅРѕ РѕРєСЂРµРјРёРј СЂСЏРґРєРѕРј.",
-        "РџСЂС–Р·РІРёС‰Рµ С‚Р° С–РЅС–С†С–Р°Р»Рё Р°РІС‚РѕСЂР°(С–РІ), РѕСЂРіР°РЅС–Р·Р°С†С–СЏ, РјС–СЃС‚Рѕ, РєСЂР°С—РЅР°.",
-        "РќР°Р·РІР° вЂ” Times New Roman 14 pt, РџР РћРџРРЎРќРРњР Р±СѓРєРІР°РјРё, РїРѕ С†РµРЅС‚СЂСѓ.",
-        "РђРЅРѕС‚Р°С†С–СЏ С– РєР»СЋС‡РѕРІС– СЃР»РѕРІР° вЂ” РјРѕРІРѕСЋ РїСѓР±Р»С–РєР°С†С–С— С‚Р° Р°РЅРіР»С–Р№СЃСЊРєРѕСЋ (TNR Cyr 11 pt, РїРѕ С€РёСЂРёРЅС–, РґРѕ 15 СЂСЏРґРєС–РІ)."
+    { uk:{ group:"Параметри сторінки", items:[
+        "A4, усі поля 25 мм, книжкова орієнтація",
+        "Нумерація сторінок вимкнена, перенесення слів увімкнене"
       ]},
-      en:{ group:"Title page", items:[
-        "UDC code given on its own line.",
-        "Author(s) surname and initials, institution, city, country.",
-        "Title in Times New Roman 14 pt, ALL CAPS, centered.",
-        "Abstract and keywords in the publication language and in English (TNR Cyr 11 pt, justified, up to 15 lines)."
-      ]} },
-    { uk:{ group:"РџР°СЂР°РјРµС‚СЂРё СЃС‚РѕСЂС–РЅРєРё С‚Р° Р°Р±Р·Р°С†Сѓ", items:[
-        "РџРѕР»СЏ: РІРµСЂС…РЅС” 2 СЃРј, РЅРёР¶РЅС” 2 СЃРј, Р»С–РІРµ 3 СЃРј, РїСЂР°РІРµ 1,5 СЃРј.",
-        "Р’С–РґСЃС‚СѓРї РїРµСЂС€РѕРіРѕ СЂСЏРґРєР° Р°Р±Р·Р°С†Сѓ вЂ” 1,25 СЃРј.",
-        "РњС–Р¶СЂСЏРґРєРѕРІРёР№ С–РЅС‚РµСЂРІР°Р» вЂ” 1.0 (РѕРґРёРЅР°СЂРЅРёР№)."
+      en:{ group:"Page setup", items:[
+        "A4, all margins 25 mm, portrait orientation",
+        "Page numbering off, hyphenation on"
+      ]}
+    },
+    { uk:{ group:"Шрифт і абзац", items:[
+        "Times New Roman 12 pt, інтервал 1.0, вирівнювання по ширині",
+        "Відступ першого рядка 1,25 см; інтервали «до/після» абзацу — 0 pt"
       ]},
-      en:{ group:"Page and paragraph setup", items:[
-        "Margins: top 2 cm, bottom 2 cm, left 3 cm, right 1.5 cm.",
-        "First-line paragraph indent вЂ” 1.25 cm.",
-        "Line spacing вЂ” 1.0 (single)."
-      ]} },
-    { uk:{ group:"РЎС‚СЂСѓРєС‚СѓСЂР° СЃС‚Р°С‚С‚С–", items:[
-        "РћСЃРЅРѕРІРЅРёР№ С‚РµРєСЃС‚ вЂ” Times New Roman Cyr, 12 pt.",
-        "2.1 РџРѕСЃС‚Р°РЅРѕРІРєР° РїСЂРѕР±Р»РµРјРё.",
-        "2.2 РђРЅР°Р»С–Р· РѕСЃС‚Р°РЅРЅС–С… РїСѓР±Р»С–РєР°С†С–Р№.",
-        "2.3 РџС–РґРєСЂРµСЃР»РµРЅРЅСЏ РЅРµРІРёСЂС–С€РµРЅРёС… С‡Р°СЃС‚РёРЅ РїСЂРѕР±Р»РµРјРё.",
-        "2.4 РњРµС‚Р° СЂРѕР±РѕС‚Рё С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєР° Р·Р°РІРґР°РЅСЊ.",
-        "2.5 Р’РёРєР»Р°Рґ РѕСЃРЅРѕРІРЅРѕРіРѕ РјР°С‚РµСЂС–Р°Р»Сѓ РґРѕСЃР»С–РґР¶РµРЅРЅСЏ (Р· СЂРёСЃСѓРЅРєР°РјРё Р№ С‚Р°Р±Р»РёС†СЏРјРё РІ С‚РµРєСЃС‚С–).",
-        "Р РѕР·РґС–Р» Р’РРЎРќРћР’РљР вЂ” РІРµР»РёРєРёРјРё Р»С–С‚РµСЂР°РјРё, TNR 12 pt, РїРѕ С†РµРЅС‚СЂСѓ.",
-        "РЎРџРРЎРћРљ Р›Р†РўР•Р РђРўРЈР Р вЂ” РІРµР»РёРєРёРјРё Р»С–С‚РµСЂР°РјРё РїРѕ С†РµРЅС‚СЂСѓ; РґР¶РµСЂРµР»Р° Р·Р° Р”РЎРўРЈ 8302:2015, РєСѓСЂСЃРёРІ TNR Cyr 10 pt, РїРѕ С€РёСЂРёРЅС–, РѕРґРёРЅР°СЂРЅРёР№ С–РЅС‚РµСЂРІР°Р»."
+      en:{ group:"Font and paragraph", items:[
+        "Times New Roman 12 pt, single spacing, justified alignment",
+        "First-line indent 1.25 cm; paragraph spacing before/after — 0 pt"
+      ]}
+    },
+    { uk:{ group:"Структура рукопису", items:[
+        "УДК окремим абзацом зліва, без відступу",
+        "Автори напівжирним, афіліація в дужках звичайним шрифтом",
+        "Назва ВЕРХНІМ РЕЄСТРОМ, по центру, напівжирним, без крапки",
+        "Анотація і Abstract із ключовими словами обома мовами",
+        "Розділи — run-in заголовки («Вступ.», «Методика.», «Результати.», «Висновки.»)"
       ]},
-      en:{ group:"Article structure", items:[
-        "Main text вЂ” Times New Roman Cyr, 12 pt.",
-        "2.1 Statement of the problem.",
-        "2.2 Review of recent publications.",
-        "2.3 Identification of the unresolved parts of the problem.",
-        "2.4 Purpose of the work and research objectives.",
-        "2.5 Presentation of the main research material (with figures and tables in the text).",
-        "CONCLUSIONS section вЂ” capital letters, TNR 12 pt, centered.",
-        "REFERENCES вЂ” capital letters, centered; sources per DSTU 8302:2015, italic TNR Cyr 10 pt, justified, single spacing."
-      ]} },
-    { uk:{ group:"Р¤РѕСЂРјСѓР»Рё, СЂРёСЃСѓРЅРєРё, С‚Р°Р±Р»РёС†С–", items:[
-        "Р¤РѕСЂРјСѓР»Рё вЂ” С‡РµСЂРµР· MathType Р°Р±Рѕ РІР±СѓРґРѕРІР°РЅРёР№ СЂРµРґР°РєС‚РѕСЂ Word, TNR 12 pt; РЅРѕРјРµСЂ Сѓ РґСѓР¶РєР°С… РїСЂР°РІРѕСЂСѓС‡, РЅР°РїСЂ. (1).",
-        "Р РёСЃСѓРЅРєРё С†РµРЅС‚СЂРѕРІР°РЅС–; РїС–РґРїРёСЃ Р·РЅРёР·Сѓ: В«Р РёСЃСѓРЅРѕРє 1. РќР°Р·РІР° СЂРёСЃСѓРЅРєР°.В»",
-        "РўР°Р±Р»РёС†С– С†РµРЅС‚СЂРѕРІР°РЅС–; РЅР°Р·РІР° Р·РІРµСЂС…Сѓ: В«РўР°Р±Р»РёС†СЏ 1. РќР°Р·РІР° С‚Р°Р±Р»РёС†С–.В»"
+      en:{ group:"Manuscript structure", items:[
+        "UDC code as a separate left-aligned paragraph, no indent",
+        "Authors in bold, affiliation in parentheses in regular type",
+        "Title in ALL CAPS, centered, bold, no period",
+        "Abstract with keywords in both Ukrainian and English",
+        "Sections use run-in headings (\"Introduction.\", \"Methods.\", \"Results.\", \"Conclusions.\")"
+      ]}
+    },
+    { uk:{ group:"Формули, таблиці, рисунки", items:[
+        "Формули по центру, номер у дужках праворуч, TNR 12 pt",
+        "Підписи «Таблиця 1 — …» над таблицею, «Рис. 1 — …» під рисунком",
+        "Рисунки якістю не менше 300 dpi, у межах полів сторінки"
       ]},
-      en:{ group:"Formulas, figures, tables", items:[
-        "Formulas вЂ” via MathType or Word's built-in equation editor, TNR 12 pt; number in parentheses on the right, e.g. (1).",
-        "Figures centered; caption below: \"Figure 1. Figure title.\"",
-        "Tables centered; caption above: \"Table 1. Table title.\""
-      ]} },
-    { uk:{ group:"Р’С–РґРѕРјРѕСЃС‚С– РїСЂРѕ Р°РІС‚РѕСЂС–РІ", items:[
-        "РџСЂС–Р·РІРёС‰Рµ, С–Рј'СЏ, РїРѕ Р±Р°С‚СЊРєРѕРІС– РєРѕР¶РЅРѕРіРѕ Р°РІС‚РѕСЂР°.",
-        "РќР°СѓРєРѕРІРёР№ СЃС‚СѓРїС–РЅСЊ С– РІС‡РµРЅРµ Р·РІР°РЅРЅСЏ (СЏРєС‰Рѕ С”).",
-        "РЈСЃС‚Р°РЅРѕРІР°, РїРѕСЃР°РґР°.",
-        "E-mail С– РјРѕР±. С‚РµР»РµС„РѕРЅ РґР»СЏ Р·РІ'СЏР·РєСѓ."
+      en:{ group:"Formulas, tables, figures", items:[
+        "Formulas centered, number in parentheses on the right, TNR 12 pt",
+        "Captions \"Table 1 — …\" above the table, \"Fig. 1 — …\" below the figure",
+        "Figures at 300 dpi or higher, within the page margins"
+      ]}
+    },
+    { uk:{ group:"Посилання", items:[
+        "Посилання в тексті у квадратних дужках [1], [2, 3]",
+        "Список References наприкінці, підвішений відступ 1,25 см"
       ]},
-      en:{ group:"Author information", items:[
-        "Full name of each author.",
-        "Academic degree and title (if any).",
-        "Institution and position.",
-        "E-mail and mobile phone number."
-      ]} }
+      en:{ group:"References", items:[
+        "In-text citations in square brackets [1], [2, 3]",
+        "References list at the end, hanging indent 1.25 cm"
+      ]}
+    }
   ];
 
   var REQ_LIST = {
     uk:[
-      "Р”Рѕ 10 СЃС‚РѕСЂС–РЅРѕРє, РѕРґРёРЅ С„Р°Р№Р»; РїРѕР»СЏ 2 / 2 / 3 / 1,5 СЃРј (РІРµСЂС… / РЅРёР· / Р»С–РІРѕ / РїСЂР°РІРѕ).",
-      "Times New Roman Cyr 12 pt, С–РЅС‚РµСЂРІР°Р» 1.0, РІС–РґСЃС‚СѓРї Р°Р±Р·Р°С†Сѓ 1,25 СЃРј.",
-      "РЈР”Рљ РѕРєСЂРµРјРёРј СЂСЏРґРєРѕРј; РЅР°Р·РІР° вЂ” Р’Р•Р РҐРќР†Рњ Р Р•Р„РЎРўР РћРњ, РїРѕ С†РµРЅС‚СЂСѓ, TNR 14 pt.",
-      "РђРЅРѕС‚Р°С†С–СЏ С‚Р° РєР»СЋС‡РѕРІС– СЃР»РѕРІР° РјРѕРІРѕСЋ РїСѓР±Р»С–РєР°С†С–С— Р№ Р°РЅРіР»С–Р№СЃСЊРєРѕСЋ.",
-      "Р РѕР·РґС–Р»Рё 2.1вЂ“2.5; Р’РРЎРќРћР’РљР С– РЎРџРРЎРћРљ Р›Р†РўР•Р РђРўРЈР Р вЂ” РїРѕ С†РµРЅС‚СЂСѓ, РІРµР»РёРєРёРјРё Р»С–С‚РµСЂР°РјРё.",
-      "Р¤РѕСЂРјСѓР»Рё, СЂРёСЃСѓРЅРєРё Р№ С‚Р°Р±Р»РёС†С– вЂ” Р· РЅСѓРјРµСЂР°С†С–С”СЋ, РїС–РґРїРёСЃР°РјРё Р№ С†РµРЅС‚СЂСѓРІР°РЅРЅСЏРј Р·Р° Р·СЂР°Р·РєРѕРј."
+      "A4, поля 25 мм з усіх боків, книжкова орієнтація, без нумерації сторінок.",
+      "Times New Roman 12 pt, інтервал 1.0, вирівнювання по ширині, відступ першого рядка 1,25 см.",
+      "УДК окремим абзацом зліва; автори — напівжирним, з афіліацією в дужках.",
+      "Назва — ВЕРХНІМ РЕЄСТРОМ, по центру, напівжирним, без крапки.",
+      "Анотація і Abstract із ключовими словами — обидвома мовами.",
+      "Розділи — run-in заголовки: «Вступ.», «Методика.», «Результати.», «Висновки.» тощо.",
+      "Список посилань — у квадратних дужках [1], References наприкінці, підвішений відступ 1,25 см."
     ],
     en:[
-      "Up to 10 pages, single file; margins 2 / 2 / 3 / 1.5 cm (top / bottom / left / right).",
-      "Times New Roman Cyr 12 pt, single spacing, 1.25 cm first-line indent.",
-      "UDC on its own line; title in ALL CAPS, centered, TNR 14 pt.",
-      "Abstract and keywords in the publication language and in English.",
-      "Sections 2.1вЂ“2.5; CONCLUSIONS and REFERENCES centered, in capital letters.",
-      "Formulas, figures, and tables formatted per the sample (numbering, captions, centering)."
+      "A4, 25 mm margins on all sides, portrait orientation, no page numbering.",
+      "Times New Roman 12 pt, single spacing, justified alignment, first-line indent 1.25 cm.",
+      "UDC code as a separate left-aligned paragraph; authors in bold, with affiliation in parentheses.",
+      "Title in ALL CAPS, centered, bold, no period.",
+      "Abstract with keywords in both Ukrainian and English.",
+      "Sections use run-in headings: \"Introduction.\", \"Methods.\", \"Results.\", \"Conclusions.\", etc.",
+      "Citations in square brackets [1]; a References list at the end, with a hanging indent of 1.25 cm."
     ]
   };
 
   var TL_DATA = [
-    { uk:{ date:'РІС–РґРєСЂРёС‚Рѕ', title:'Р РµС”СЃС‚СЂР°С†С–СЏ СѓС‡Р°СЃС‚С–', desc:'РћР±РѕРІвЂ™СЏР·РєРѕРІР° РґР»СЏ РІСЃС–С… СѓС‡Р°СЃРЅРёРєС–РІ вЂ” РґРѕРїРѕРІС–РґР°С‡С–РІ, СЃРїС–РІР°РІС‚РѕСЂС–РІ С– СЃР»СѓС…Р°С‡С–РІ.' },
-      en:{ date:'open now', title:'Participant registration', desc:'Required for all participants вЂ” speakers, co-authors, and listeners.' },
-      refKey:null },
-    { uk:{ date:'РґРѕ 30.11.2026', title:'Р”РµРґР»Р°Р№РЅ РїРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґРµР№', desc:'РўРµРєСЃС‚ СЃС‚Р°С‚С‚С– С‚Р° РІС–РґРѕРјРѕСЃС‚С– РїСЂРѕ Р°РІС‚РѕСЂС–РІ РЅР°РґСЃРёР»Р°СЋС‚СЊСЃСЏ РЅР° РїРѕС€С‚Сѓ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ (РѕРєСЂРµРјРѕ РІС–Рґ СЂРµС”СЃС‚СЂР°С†С–С—).' },
-      en:{ date:'by 30.11.2026', title:'Manuscript submission deadline', desc:'The paper text and author details are sent to the organizing committeeвЂ™s email (separately from registration).' },
+    { uk:{ date:'до 30.10.2026', title:'Дедлайн подання рукописів', desc:'Текст доповіді та відомості про авторів подаються через Google Форму.' },
+      en:{ date:'by 30.10.2026', title:'Manuscript submission deadline', desc:'The paper text and author details are submitted via a Google Form.' },
       refKey:'DEADLINE' },
-    { uk:{ date:'11вЂ“12.12.2026', title:'РџСЂРѕРІРµРґРµРЅРЅСЏ РєРѕРЅС„РµСЂРµРЅС†С–С—', desc:'Р—РјС–С€Р°РЅРёР№ С„РѕСЂРјР°С‚: РѕС‡РЅРѕ Сѓ Р’С–РЅРЅРёС†С– С‚Р° on-line.' },
-      en:{ date:'11вЂ“12.12.2026', title:'Conference dates', desc:'Hybrid format: on-site in Vinnytsia and online.' },
+    { uk:{ date:'13–14.11.2026', title:'Проведення конференції', desc:'Змішаний формат: очно у Вінниці та on-line через Zoom і Google Meet.' },
+      en:{ date:'13–14.11.2026', title:'Conference dates', desc:'Hybrid format: on-site in Vinnytsia and online via Zoom and Google Meet.' },
       refKey:'CONF_START' },
-    { uk:{ date:'РїС–СЃР»СЏ РєРѕРЅС„РµСЂРµРЅС†С–С—', title:'РџСѓР±Р»С–РєР°С†С–СЏ Р·Р±С–СЂРЅРёРєР°', desc:'Р•Р»РµРєС‚СЂРѕРЅРЅРёР№ Р·Р±С–СЂРЅРёРє РјР°С‚РµСЂС–Р°Р»С–РІ; РєСЂР°С‰С– СЃС‚Р°С‚С‚С– вЂ” РґРѕ Р¶СѓСЂРЅР°Р»Сѓ В«РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚В».' },
-      en:{ date:'after the conference', title:'Proceedings published', desc:'Electronic conference proceedings; top papers forwarded to the journal "Shtuchnyi Intelekt".' },
+    { uk:{ date:'після конференції', title:'Публікація збірника', desc:'Електронний збірник матеріалів конференції з ISBN.' },
+      en:{ date:'after the conference', title:'Proceedings published', desc:'Electronic conference proceedings with an ISBN.' },
       refKey:null }
-  ];
-
-  /* ---------------- REGISTRATION FORM OPTION SETS ----------------
-     `value` is the exact string sent to the Google Form/Sheet.
-     Confirmed 14.09.2026 from a real pre-filled link generated in the
-     Google Forms editor and sent by the user (not guessed):
-       - participationFormat, option 1 ("Off-line"): exact confirmed text below
-         (note the real form's own double space before "(Vinnytsia)")
-       - manuscript "Yes" and invitation "No": exact confirmed text below
-     NOT independently confirmed вЂ” inferred from the same "EN / UK" pattern
-     seen on the confirmed options above (options 2вЂ“3 of participationFormat
-     were not the ones selected in the pre-filled link the user sent):
-       - participationFormat options 2 and 3 (Zoom / Google Meet)
-     If these don't match the form editor exactly, generate one more
-     pre-filled link selecting "Online вЂ” Zoom" (or Google Meet) and send it
-     to get the exact text вЂ” Google still records whatever text is sent
-     either way, so this only affects how clean the values look in the Sheet. */
-  var PARTICIPATION_FORMAT_OPTIONS = [
-    { value:'Off-line  (Vinnytsia) / РћС‡РЅРѕ (Р’С–РЅРЅРёС†СЏ)', uk:'РћС‡РЅРѕ (Р’С–РЅРЅРёС†СЏ)', en:'Off-line (Vinnytsia)' }, // confirmed
-    { value:'Online вЂ” Zoom / РћРЅР»Р°Р№РЅ вЂ” Zoom', uk:'Online вЂ” Zoom', en:'Online вЂ” Zoom' }, // NOT independently confirmed вЂ” verify
-    { value:'Online вЂ” Google Meet / РћРЅР»Р°Р№РЅ вЂ” Google Meet', uk:'Online вЂ” Google Meet', en:'Online вЂ” Google Meet' } // NOT independently confirmed вЂ” verify
-  ];
-  var YES_NO_OPTIONS = [
-    { value:'Yes / РўР°Рє', uk:'РўР°Рє', en:'Yes' }, // confirmed
-    { value:'No / РќС–', uk:'РќС–', en:'No' }      // confirmed
   ];
 
   /* ---------------- UI STRINGS ---------------- */
   var I18N = {
     uk: {
-      pageTitle:'РќРњРўР—-2026',
-      navAria:'Р РѕР·РґС–Р»Рё СЃР°Р№С‚Сѓ',
-      nav:{ home:'Р“РѕР»РѕРІРЅР°', about:'РџСЂРѕ РєРѕРЅС„РµСЂРµРЅС†С–СЋ', register:'Р РµС”СЃС‚СЂР°С†С–СЏ', submit:'РџРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґС–', status:'Р РµС†РµРЅР·СѓРІР°РЅРЅСЏ', contacts:'РљРѕРЅС‚Р°РєС‚Рё' },
-      themeTitle:'РџРµСЂРµРјРєРЅСѓС‚Рё С‚РµРјСѓ',
+      pageTitle:'Сучасна освіта 2026',
+      navAria:'Розділи сайту',
+      nav:{ home:'Головна', about:'Про конференцію', register:'Реєстрація', submit:'Подання рукопису', status:'Зауваження', contacts:'Контакти' },
+      themeTitle:'Перемкнути тему',
       langBtn:'EN', langTitle:'Switch to English',
-      letterhead:'Р’С–РЅРЅРёС†СЊРєРёР№ РЅР°С†С–РѕРЅР°Р»СЊРЅРёР№ С‚РµС…РЅС–С‡РЅРёР№ СѓРЅС–РІРµСЂСЃРёС‚РµС‚ (РЈРєСЂР°С—РЅР°)',
-      homeEyebrow:'XXV РњС–Р¶РЅР°СЂРѕРґРЅР° РЅР°СѓРєРѕРІР° РєРѕРЅС„РµСЂРµРЅС†С–СЏ',
-      homeTitle:'В«РќРµР№СЂРѕРјРµСЂРµР¶РЅС– С‚РµС…РЅРѕР»РѕРіС–С— С‚Р° С—С… Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏВ» РќРњРўР—-2026',
-      homeLede:'РћСЂРіРєРѕРјС–С‚РµС‚ Р·Р°РїСЂРѕС€СѓС” Р’Р°СЃ РІР·СЏС‚Рё СѓС‡Р°СЃС‚СЊ Сѓ СЂРѕР±РѕС‚С– РєРѕРЅС„РµСЂРµРЅС†С–С— 11вЂ“12 РіСЂСѓРґРЅСЏ 2026 СЂРѕРєСѓ РІ Р·РјС–С€Р°РЅРѕРјСѓ С„РѕСЂРјР°С‚С– (on-line С‚Р° off-line) РЅР° Р±Р°Р·С– Р’С–РЅРЅРёС†СЊРєРѕРіРѕ РЅР°С†С–РѕРЅР°Р»СЊРЅРѕРіРѕ С‚РµС…РЅС–С‡РЅРѕРіРѕ СѓРЅС–РІРµСЂСЃРёС‚РµС‚Сѓ. РћР±РіРѕРІРѕСЂРµРЅРЅСЏ СЂРµР·СѓР»СЊС‚Р°С‚С–РІ РЅР°СѓРєРѕРІРёС… СЂРѕР·СЂРѕР±РѕРє РїР»Р°РЅСѓС”С‚СЊСЃСЏ Р·Р° СЃС–РјРѕРјР° РЅР°РїСЂСЏРјРєР°РјРё вЂ” РІС–Рґ РіР»РёР±РёРЅРЅРѕРіРѕ РЅР°РІС‡Р°РЅРЅСЏ Р№ С†РёС„СЂРѕРІРёС… РґРІС–Р№РЅРёРєС–РІ РґРѕ СЂРѕР·СѓРјРЅРѕРіРѕ РІРёСЂРѕР±РЅРёС†С‚РІР°, СЂРѕР±РѕС‚РѕС‚РµС…РЅС–РєРё, AI-РєРµСЂРѕРІР°РЅРѕРіРѕ СѓРїСЂР°РІР»С–РЅРЅСЏ, Р·Р°СЃС‚РѕСЃСѓРІР°РЅСЊ С€С‚СѓС‡РЅРѕРіРѕ С–РЅС‚РµР»РµРєС‚Сѓ РІ РѕСЃРІС–С‚С– С‚Р° РµС‚РёС‡РЅРёС… С– РїСЂР°РІРѕРІРёС… Р°СЃРїРµРєС‚С–РІ Р№РѕРіРѕ СЂРѕР·РІРёС‚РєСѓ.',
-      metaDatesK:'Р”Р°С‚Рё', metaDatesV:'11вЂ“12 РіСЂСѓРґРЅСЏ 2026',
-      metaVenueK:'РњС–СЃС†Рµ', metaVenueV:'Р’С–РЅРЅРёС†СЊРєРёР№ РЅР°С†С–РѕРЅР°Р»СЊРЅРёР№ С‚РµС…РЅС–С‡РЅРёР№ СѓРЅС–РІРµСЂСЃРёС‚РµС‚, Рј. Р’С–РЅРЅРёС†СЏ, РЈРєСЂР°С—РЅР°',
-      metaFormatK:'Р¤РѕСЂРјР°С‚', metaFormatV:'Р·РјС–С€Р°РЅРёР№ вЂ” РѕС‡РЅРѕ С‚Р° on-line',
-      metaLangK:'РњРѕРІРё', metaLangV:'СѓРєСЂР°С—РЅСЃСЊРєР°, Р°РЅРіР»С–Р№СЃСЊРєР°',
-      metaFeeK:'Р’РЅРµСЃРѕРє', metaFeeV:'РЅРµ РїРµСЂРµРґР±Р°С‡РµРЅРёР№',
-      ctaRegister:'Р—Р°СЂРµС”СЃС‚СЂСѓРІР°С‚РёСЃСЏ в†’', ctaSubmit:'РџРѕРґР°С‚Рё РґРѕРїРѕРІС–РґСЊ в†’', ctaAbout:'РўРµРјР°С‚РёРєР° С– РєРѕРјС–С‚РµС‚',
-      pathAEyebrow:'РҐРѕС‡Сѓ РІР·СЏС‚Рё СѓС‡Р°СЃС‚СЊ', pathATitle:'Р—Р°СЂРµС”СЃС‚СЂСѓР№С‚РµСЃСЏ СЏРє СѓС‡Р°СЃРЅРёРє',
-      pathAText:'Р РµС”СЃС‚СЂР°С†С–СЏ РѕР±РѕРІвЂ™СЏР·РєРѕРІР° РґР»СЏ РєРѕР¶РЅРѕРіРѕ вЂ” РґРѕРїРѕРІС–РґР°С‡Р°, СЃРїС–РІР°РІС‚РѕСЂР° С‡Рё СЃР»СѓС…Р°С‡Р°, СЏРєРёР№ РїСЂРѕСЃС‚Рѕ РІС–РґРІС–РґР°С” РєРѕРЅС„РµСЂРµРЅС†С–СЋ.',
-      pathABtn:'Р—Р°СЂРµС”СЃС‚СЂСѓРІР°С‚РёСЃСЏ в†’',
-      pathBEyebrow:'РҐРѕС‡Сѓ РїРѕРґР°С‚Рё РґРѕРїРѕРІС–РґСЊ', pathBTitle:'РќР°РґС–С€Р»С–С‚СЊ С‚РµРєСЃС‚ РґРѕРїРѕРІС–РґС–',
-      pathBText:'РћРєСЂРµРјРѕ РІС–Рґ СЂРµС”СЃС‚СЂР°С†С–С— РїС–РґРіРѕС‚СѓР№С‚Рµ СЃС‚Р°С‚С‚СЋ Р·Р° РІРёРјРѕРіР°РјРё Р№ РЅР°РґС–С€Р»С–С‚СЊ С—С— РЅР° СЂРѕР·РіР»СЏРґ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ.',
-      pathBBtn:'РџРѕРґР°С‚Рё РґРѕРїРѕРІС–РґСЊ в†’',
-      statSectionsL:'С‚РµРјР°С‚РёС‡РЅРёС… РЅР°РїСЂСЏРјРєС–РІ', statPartnersL:'СѓСЃС‚Р°РЅРѕРІ-РїР°СЂС‚РЅРµСЂС–РІ, 8 РєСЂР°С—РЅ',
-      statDeadlineL:'РґРЅС–РІ РґРѕ РґРµРґР»Р°Р№РЅСѓ РїРѕРґР°РЅРЅСЏ',
-      keyDatesEyebrow:'РљР»СЋС‡РѕРІС– РґР°С‚Рё',
-      howEyebrow:'РЇРє РІР·СЏС‚Рё СѓС‡Р°СЃС‚СЊ',
-      step1:'<strong>1. Р РµС”СЃС‚СЂР°С†С–СЏ.</strong> Р—Р°РїРѕРІРЅС–С‚СЊ С„РѕСЂРјСѓ СЂРµС”СЃС‚СЂР°С†С–С— вЂ” РѕР±РѕРІвЂ™СЏР·РєРѕРІРѕ РґР»СЏ РІСЃС–С… СѓС‡Р°СЃРЅРёРєС–РІ, РІРєР»СЋС‡РЅРѕ Р·С– СЃР»СѓС…Р°С‡Р°РјРё.',
-      step2:'<strong>2. РџС–РґРіРѕС‚РѕРІРєР° РґРѕРїРѕРІС–РґС–.</strong> РћС„РѕСЂРјС–С‚СЊ С‚РµРєСЃС‚ РґРѕРїРѕРІС–РґС– Р·Р° РІРёРјРѕРіР°РјРё (РґР»СЏ РґРѕРїРѕРІС–РґР°С‡С–РІ С– СЃРїС–РІР°РІС‚РѕСЂС–РІ).',
-      step3:'<strong>3. РџРѕРґР°РЅРЅСЏ СЃС‚Р°С‚С‚С–.</strong> РќР°РґС–С€Р»С–С‚СЊ С„Р°Р№Р» СЃС‚Р°С‚С‚С– С‚Р° РІС–РґРѕРјРѕСЃС‚С– РїСЂРѕ Р°РІС‚РѕСЂС–РІ РЅР° РїРѕС€С‚Сѓ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ РґРѕ 30 Р»РёСЃС‚РѕРїР°РґР° 2026 СЂ.',
-      step4:'<strong>4. Р РµС†РµРЅР·СѓРІР°РЅРЅСЏ.</strong> РћСЂРіРєРѕРјС–С‚РµС‚ РїРµСЂРµРІС–СЂСЏС” РІС–РґРїРѕРІС–РґРЅС–СЃС‚СЊ РІРёРјРѕРіР°Рј; Р·Р° РїРѕС‚СЂРµР±Рё РЅР°РґСЃРёР»Р°С” Р·Р°СѓРІР°Р¶РµРЅРЅСЏ РЅР° РІР°С€Сѓ РїРѕС€С‚Сѓ.',
-      step5:'<strong>5. РЈС‡Р°СЃС‚СЊ Сѓ РєРѕРЅС„РµСЂРµРЅС†С–С—.</strong> 11вЂ“12 РіСЂСѓРґРЅСЏ 2026 СЂ.; СЃС‚Р°С‚С‚СЏ РІРёС…РѕРґРёС‚СЊ Сѓ Р·Р±С–СЂРЅРёРєСѓ, Р° СЂРµРєРѕРјРµРЅРґРѕРІР°РЅС– вЂ” Сѓ Р¶СѓСЂРЅР°Р»С– В«РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚В».',
-      stepsNote:'Р”Р»СЏ СЃР»СѓС…Р°С‡С–РІ, СЏРєС– РЅРµ РїРѕРґР°СЋС‚СЊ РґРѕРїРѕРІС–РґСЊ, РґРѕСЃС‚Р°С‚РЅСЊРѕ РєСЂРѕРєСѓ 1.',
-      homeInfoNote:'Р РµС”СЃС‚СЂР°С†С–СЏ СѓС‡Р°СЃРЅРёРєР° РѕР±РѕРІвЂ™СЏР·РєРѕРІР° РґР»СЏ РІСЃС–С… вЂ” РґРѕРїРѕРІС–РґР°С‡С–РІ, СЃРїС–РІР°РІС‚РѕСЂС–РІ С– СЃР»СѓС…Р°С‡С–РІ вЂ” С– С” РѕРєСЂРµРјРёРј РїСЂРѕС†РµСЃРѕРј РІС–Рґ РїРѕРґР°РЅРЅСЏ РЅР°СѓРєРѕРІРѕС— СЃС‚Р°С‚С‚С–. Р¦СЏ СЃС‚РѕСЂС–РЅРєР° вЂ” С–РЅС„РѕСЂРјР°С†С–Р№РЅР° РѕР±РѕР»РѕРЅРєР° РєРѕРЅС„РµСЂРµРЅС†С–С— Р· С„РѕСЂРјРѕСЋ СЂРµС”СЃС‚СЂР°С†С–С—, РІРёРјРѕРіР°РјРё РґРѕ РѕС„РѕСЂРјР»РµРЅРЅСЏ СЃС‚Р°С‚РµР№ С– РїСЂСЏРјРёРјРё РєРѕРЅС‚Р°РєС‚Р°РјРё РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ.',
+      letterhead:'Вінницький національний технічний університет (Україна)',
+      homeEyebrow:'XVIII Міжнародна наукова конференція',
+      homeTitle:'«Сучасна освіта — доступність, якість, визнання»',
+      homeLede:'Оргкомітет запрошує до участі у щорічній конференції, присвяченій завданням і пріоритетним напрямам розвитку освіти в Україні та світі, узагальненню досвіду забезпечення якості й розширення академічної мобільності, а також інтеграції шкільної, фахової передвищої та вищої освіти у світовий освітній простір.',
+      metaDatesK:'Дати', metaDatesV:'13–14 листопада 2026',
+      metaVenueK:'Місце', metaVenueV:'Вінницький національний технічний університет, м. Вінниця, Україна',
+      metaFormatK:'Формат', metaFormatV:'змішаний — очно та on-line (Zoom, Google Meet)',
+      metaLangK:'Мови', metaLangV:'українська, англійська',
+      metaFeeK:'Внесок', metaFeeV:'не передбачений',
+      ctaRegister:'Зареєструватися →', ctaSubmit:'Подати рукопис →', ctaAbout:'Тематика та комітет',
+      statSectionsL:'тематичних секцій', statPartnersL:'установ-партнерів, 12 країн',
+      statDeadlineL:'днів до дедлайну подання', statIsbnL:'електронний збірник матеріалів',
+      keyDatesEyebrow:'Ключові дати',
+      howEyebrow:'Як бере участь ваш примірник',
+      step1:'<strong>1. Реєстрація.</strong> Заповніть Google Форму реєстрації учасника — оргкомітет формує з відповідей загальний список.',
+      step2:'<strong>2. Подання рукопису.</strong> Пройдіть чек-лист оформлення, тоді заповніть Google Форму подання і додайте файл статті.',
+      step3:'<strong>3. Супровід і зауваження.</strong> Зауваження рецензентів оргкомітет надсилає на вашу пошту; відповідь і доопрацьовану версію подайте через форму зауважень у розділі «Зауваження».',
+      homeInfoNote:'Реєстрація та подання рукописів відбуваються через Google Форми, а супровід зауважень — через окрему форму відповіді. Ця сторінка — інформаційна оболонка конференції з прямими посиланнями на всі форми.',
 
-      aboutEyebrow:'РџСЂРѕ РєРѕРЅС„РµСЂРµРЅС†С–СЋ',
-      aboutH2:'РњРµС‚Р°, РѕСЂРіР°РЅС–Р·Р°С‚РѕСЂРё С‚Р° РѕСЂРіРєРѕРјС–С‚РµС‚',
-      goalsH3:'РњРµС‚Р° РєРѕРЅС„РµСЂРµРЅС†С–С—',
-      goal1:'РћР±РіРѕРІРѕСЂРµРЅРЅСЏ СЂРµР·СѓР»СЊС‚Р°С‚С–РІ РЅР°СѓРєРѕРІРёС… РґРѕСЃР»С–РґР¶РµРЅСЊ С– СЂРѕР·СЂРѕР±РѕРє Сѓ СЃС„РµСЂС– РЅРµР№СЂРѕРјРµСЂРµР¶РµРІРёС… С‚РµС…РЅРѕР»РѕРіС–Р№, С†РёС„СЂРѕРІРёС… РґРІС–Р№РЅРёРєС–РІ, СЂРѕР·СѓРјРЅРѕРіРѕ РІРёСЂРѕР±РЅРёС†С‚РІР° С‚Р° СЂРѕР±РѕС‚РѕС‚РµС…РЅС–РєРё.',
-      goal2:'Р РѕР·РІРёС‚РѕРє РјС–Р¶РЅР°СЂРѕРґРЅРѕС— СЃРїС–РІРїСЂР°С†С– РјС–Р¶ Р·Р°РєР»Р°РґР°РјРё РѕСЃРІС–С‚Рё Р№ РЅР°СѓРєРѕРІРёРјРё СѓСЃС‚Р°РЅРѕРІР°РјРё РЈРєСЂР°С—РЅРё С‚Р° РєСЂР°С—РЅ-РїР°СЂС‚РЅРµСЂС–РІ.',
-      goal3:'РџСѓР±Р»С–РєР°С†С–СЏ РЅР°Р№РєСЂР°С‰РёС… РґРѕРїРѕРІС–РґРµР№ Сѓ Р·Р±С–СЂРЅРёРєСѓ РјР°С‚РµСЂС–Р°Р»С–РІ РєРѕРЅС„РµСЂРµРЅС†С–С— С‚Р° СЂРµРєРѕРјРµРЅРґР°С†С–СЏ РІРёР±СЂР°РЅРёС… СЃС‚Р°С‚РµР№ С„Р°С…РѕРІРѕРјСѓ Р¶СѓСЂРЅР°Р»Сѓ В«РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚В».',
-      orgsH3:'РћСЂРіР°РЅС–Р·Р°С‚РѕСЂРё С‚Р° СѓСЃС‚Р°РЅРѕРІРё-РїР°СЂС‚РЅРµСЂРё',
-      orgsLede:'РљРѕРЅС„РµСЂРµРЅС†С–СЏ РїСЂРѕРІРѕРґРёС‚СЊСЃСЏ РЅР° Р±Р°Р·С– Р’С–РЅРЅРёС†СЊРєРѕРіРѕ РЅР°С†С–РѕРЅР°Р»СЊРЅРѕРіРѕ С‚РµС…РЅС–С‡РЅРѕРіРѕ СѓРЅС–РІРµСЂСЃРёС‚РµС‚Сѓ Р·Р° СѓС‡Р°СЃС‚С– РїР°СЂС‚РЅРµСЂС–РІ Р· 8 РєСЂР°С—РЅ.',
-      committeeH3:'РћСЂРіР°РЅС–Р·Р°С†С–Р№РЅРёР№ РєРѕРјС–С‚РµС‚',
-      langH3:'Р РѕР±РѕС‡С– РјРѕРІРё',
-      badgeUk:'РЈРєСЂР°С—РЅСЃСЊРєР°',
-      topicsH3:'РўРµРјР°С‚РёС‡РЅС– РЅР°РїСЂСЏРјРєРё РєРѕРЅС„РµСЂРµРЅС†С–С—',
-      topicsNote:'РћСЂРіРєРѕРјС–С‚РµС‚ С‚Р°РєРѕР¶ СЂРѕР·РіР»СЏРґР°С” РїСЂРѕРїРѕР·РёС†С–С— СѓС‡Р°СЃРЅРёРєС–РІ Р· С–РЅС€РёС… Р°РєС‚СѓР°Р»СЊРЅРёС… РЅР°РїСЂСЏРјРєС–РІ Сѓ СЃРІС–С‚Р»С– С‚РµРјР°С‚РёРєРё РєРѕРЅС„РµСЂРµРЅС†С–С—.',
-      sectionLabel:'РќРђРџР РЇРњРћРљ',
+      aboutEyebrow:'Про конференцію',
+      aboutH2:'Мета, організатори та програмний комітет',
+      goalsH3:'Мета проведення конференції',
+      goal1:'Обговорення завдань і пріоритетних напрямків розвитку освіти в контексті викликів сьогодення і майбутнього України.',
+      goal2:'Узагальнення досвіду забезпечення якості та розширення мобільності освіти в сучасних умовах.',
+      goal3:'Розширення інтеграції шкільної, позашкільної, фахової передвищої і вищої освіти у світовий освітній простір.',
+      orgsH3:'Організатори та установи-партнери',
+      orgsLede:'Конференція проводиться на базі Вінницького національного технічного університету за участі партнерів з 12 країн.',
+      committeeH3:'Програмний комітет',
+      langH3:'Робочі мови',
+      badgeUk:'Українська',
+      topicsH3:'Попередня тематика конференції',
+      sectionLabel:'СЕКЦІЯ',
 
-      registerEyebrow:'Р РµС”СЃС‚СЂР°С†С–СЏ',
-      registerH2:'Р РµС”СЃС‚СЂР°С†С–СЏ СѓС‡Р°СЃРЅРёРєР° вЂ” РѕР±РѕРІвЂ™СЏР·РєРѕРІР°',
-      registerLede:'Р РµС”СЃС‚СЂР°С†С–СЏ РїРѕС‚СЂС–Р±РЅР° РєРѕР¶РЅРѕРјСѓ СѓС‡Р°СЃРЅРёРєСѓ РєРѕРЅС„РµСЂРµРЅС†С–С— вЂ” РґРѕРїРѕРІС–РґР°С‡Сѓ, СЃРїС–РІР°РІС‚РѕСЂСѓ С‡Рё СЃР»СѓС…Р°С‡Сѓ, СЏРєРёР№ РЅРµ РїРѕРґР°С” СЃС‚Р°С‚С‚СЋ. Р—Р°РїРѕРІРЅС–С‚СЊ С„РѕСЂРјСѓ РЅРёР¶С‡Рµ.',
-      registerSeparateNote:'Р РµС”СЃС‚СЂР°С†С–СЏ С‚Р° РїРѕРґР°РЅРЅСЏ РЅР°СѓРєРѕРІРѕС— СЃС‚Р°С‚С‚С– вЂ” РґРІР° РѕРєСЂРµРјС– РїСЂРѕС†РµСЃРё. РЇРєС‰Рѕ РІРё С‚Р°РєРѕР¶ РїРѕРґР°С”С‚Рµ РґРѕРїРѕРІС–РґСЊ, РїС–СЃР»СЏ СЂРµС”СЃС‚СЂР°С†С–С— РїРµСЂРµР№РґС–С‚СЊ РґРѕ СЂРѕР·РґС–Р»Сѓ В«РџРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґС–В».',
-      regConfigNoticeText:'РћРЅР»Р°Р№РЅ-С„РѕСЂРјСѓ СЂРµС”СЃС‚СЂР°С†С–С— С‰Рµ РЅРµ РїС–РґРєР»СЋС‡РµРЅРѕ РґРѕ Google Р¤РѕСЂРјРё РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ. РџРѕР»СЏ РЅРёР¶С‡Рµ РїРѕРєР°Р·СѓСЋС‚СЊ, СЏРєС– РґР°РЅС– Р·Р±РёСЂР°С‚РёРјСѓС‚СЊСЃСЏ, Р°Р»Рµ РЅР°РґСЃРёР»Р°РЅРЅСЏ РїРѕРєРё РІРёРјРєРЅРµРЅРѕ вЂ” Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЂРѕР·СЂРѕР±РЅРёРєР° СЃС‚РѕСЂС–РЅРєРё, С‰РѕР± РІРєР°Р·Р°С‚Рё REGISTRATION_FORM_URL С– REGISTRATION_ENTRY_IDS Сѓ РєРѕРґС–.',
-      regBlock1Legend:'РћСЃРѕР±РёСЃС‚С– РґР°РЅС–',
-      regFullNameLabel:'РџР†Р‘',
-      regEmailLabel:'Р•Р»РµРєС‚СЂРѕРЅРЅР° РїРѕС€С‚Р°', regPhoneLabel:'РўРµР»РµС„РѕРЅ',
-      regBlock2Legend:'РЈСЃС‚Р°РЅРѕРІР°',
-      regCountryLabel:'РљСЂР°С—РЅР°', regInstitutionLabel:'РЈСЃС‚Р°РЅРѕРІР°', regDegreePositionLabel:'РќР°СѓРєРѕРІРёР№ СЃС‚СѓРїС–РЅСЊ, РІС‡РµРЅРµ Р·РІР°РЅРЅСЏ, РїРѕСЃР°РґР°',
-      regBlock3Legend:'РЈС‡Р°СЃС‚СЊ',
-      regParticipationFormatLabel:'Р¤РѕСЂРјР°С‚ СѓС‡Р°СЃС‚С–', regManuscriptLabel:'Р§Рё РїРѕРґР°РІР°С‚РёРјРµС‚Рµ СЂСѓРєРѕРїРёСЃ?',
-      regTrackLabel:'РЎРµРєС†С–СЏ', regTrackPlaceholder:'РћР±РµСЂС–С‚СЊ СЃРµРєС†С–СЋвЂ¦',
-      regInviteLabel:'Р§Рё РїРѕС‚СЂС–Р±РЅРµ РѕС„С–С†С–Р№РЅРµ Р·Р°РїСЂРѕС€РµРЅРЅСЏ?', regInvitePlaceholder:'РћР±РµСЂС–С‚СЊвЂ¦',
-      regBlock4Legend:'Р”РѕРґР°С‚РєРѕРІС– РєРѕРјРµРЅС‚Р°СЂС–',
-      regCommentsLabel:'Р”РѕРґР°С‚РєРѕРІС– РєРѕРјРµРЅС‚Р°СЂС–',
-      regBlock5Legend:'Р—РіРѕРґР°',
-      regConsentLabel:'РЇ РґР°СЋ Р·РіРѕРґСѓ РЅР° РѕР±СЂРѕР±РєСѓ РјРѕС—С… РїРµСЂСЃРѕРЅР°Р»СЊРЅРёС… РґР°РЅРёС… РѕСЂРіРєРѕРјС–С‚РµС‚РѕРј РќРњРўР—-2026 Р· РјРµС‚РѕСЋ СЂРµС”СЃС‚СЂР°С†С–С— С‚Р° РїСЂРѕРІРµРґРµРЅРЅСЏ РєРѕРЅС„РµСЂРµРЅС†С–С—.',
-      regSubmitBtn:'Р—РђР Р•Р„РЎРўР РЈР’РђРўРРЎРЇ',
-      regNotConfigured:'РћРЅР»Р°Р№РЅ-С„РѕСЂРјР° СЂРµС”СЃС‚СЂР°С†С–С— С‰Рµ РЅРµ РїС–РґРєР»СЋС‡РµРЅР° РѕСЂРіРєРѕРјС–С‚РµС‚РѕРј. Р”Р°РЅС– Р· С†С–С”С— С„РѕСЂРјРё РїРѕРєРё РЅС–РєСѓРґРё РЅРµ РЅР°РґСЃРёР»Р°СЋС‚СЊСЃСЏ.',
-      regInvalid:'РџРµСЂРµРІС–СЂС‚Рµ, Р±СѓРґСЊ Р»Р°СЃРєР°, РїРѕР·РЅР°С‡РµРЅС– РїРѕР»СЏ вЂ” РґРµСЏРєС– РѕР±РѕРІвЂ™СЏР·РєРѕРІС– РґР°РЅС– РІС–РґСЃСѓС‚РЅС– Р°Р±Рѕ РІРєР°Р·Р°РЅС– РЅРµРєРѕСЂРµРєС‚РЅРѕ.',
-      regThankYouTitle:'Р”СЏРєСѓС”РјРѕ Р·Р° СЂРµС”СЃС‚СЂР°С†С–СЋ!',
-      regThankYouText:'Р”Р°РЅС– РїРµСЂРµРґР°РЅРѕ РѕСЂРіР°РЅС–Р·Р°С†С–Р№РЅРѕРјСѓ РєРѕРјС–С‚РµС‚Сѓ РќРњРўР—-2026. РЇРєС‰Рѕ Р’Рё РїР»Р°РЅСѓС”С‚Рµ РїРѕРґР°С‚Рё РЅР°СѓРєРѕРІСѓ РґРѕРїРѕРІС–РґСЊ, РїРµСЂРµР№РґС–С‚СЊ РґРѕ СЂРѕР·РґС–Р»Сѓ В«РџРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґС–В».',
-      regThankYouCta:'Р”Рѕ РїРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґС– в†’',
-      registerPanelTitle:'РўРµРјР°С‚РёС‡РЅС– РЅР°РїСЂСЏРјРєРё',
-      regWhoTitle:'РҐС‚Рѕ СЂРµС”СЃС‚СЂСѓС”С‚СЊСЃСЏ',
-      regWho1:'Р”РѕРїРѕРІС–РґР°С‡ вЂ” РІРёСЃС‚СѓРїР°С” Р· РґРѕРїРѕРІС–РґРґСЋ С‚Р° РїРѕРґР°С” СЃС‚Р°С‚С‚СЋ.',
-      regWho2:'РЎРїС–РІР°РІС‚РѕСЂ вЂ” Р·Р°Р·РЅР°С‡РµРЅРёР№ СЃРµСЂРµРґ Р°РІС‚РѕСЂС–РІ СЃС‚Р°С‚С‚С–, Р°Р»Рµ РЅРµ РѕР±РѕРІвЂ™СЏР·РєРѕРІРѕ РІРёСЃС‚СѓРїР°С”.',
-      regWho3:'РЎР»СѓС…Р°С‡ вЂ” Р±РµСЂРµ СѓС‡Р°СЃС‚СЊ Р±РµР· РїРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґС–; СЂРµС”СЃС‚СЂР°С†С–СЏ РѕРґРЅР°РєРѕРІРѕ РѕР±РѕРІвЂ™СЏР·РєРѕРІР°.',
-      regDeadlineSet:function(d){ return 'Р”РµРґР»Р°Р№РЅ СЂРµС”СЃС‚СЂР°С†С–С—: ' + d + '.'; },
-      regDeadlineOpen:'РћРєСЂРµРјРёР№ РґРµРґР»Р°Р№РЅ СЂРµС”СЃС‚СЂР°С†С–С— РѕСЂРіРєРѕРјС–С‚РµС‚ РїРѕРєРё РЅРµ РІСЃС‚Р°РЅРѕРІРёРІ вЂ” СЂРµРєРѕРјРµРЅРґСѓС”РјРѕ Р·Р°СЂРµС”СЃС‚СЂСѓРІР°С‚РёСЃСЏ СЏРєРѕРјРѕРіР° СЂР°РЅС–С€Рµ, РґРѕ РґРµРґР»Р°Р№РЅСѓ РїРѕРґР°РЅРЅСЏ СЃС‚Р°С‚РµР№ (30 Р»РёСЃС‚РѕРїР°РґР° 2026 СЂ.).',
+      registerEyebrow:'Реєстрація учасника',
+      registerH2:'Реєстраційна форма',
+      registerLede:'Реєстрація ведеться через Google Форму — заповніть її нижче або відкрийте в новій вкладці. Оргкомітет формує загальний список учасників з отриманих відповідей.',
+      registerInfoEyebrow:'Довідково',
+      registerInfoNote:'Після реєстрації ваші дані потрапляють до реєстру оргкомітету. За потреби офіційного запрошення вкажіть це у формі або напишіть на <span class="mono">kovalevskii61@gmail.com</span>.',
+      registerPanelTitle:'Секції конференції',
 
-      submitEyebrow:'РџРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґС–',
-      submitH2:'РќР°РґСЃРёР»Р°РЅРЅСЏ С‚РµРєСЃС‚Сѓ РґРѕРїРѕРІС–РґС–',
-      submitLede:'РўРµРєСЃС‚ РґРѕРїРѕРІС–РґС–, РѕС„РѕСЂРјР»РµРЅРёР№ СЏРє РЅР°СѓРєРѕРІР° СЃС‚Р°С‚С‚СЏ (РґРѕ 10 СЃС‚РѕСЂС–РЅРѕРє, РѕРґРЅРёРј С„Р°Р№Р»РѕРј), РЅР°РґСЃРёР»Р°С”С‚СЊСЃСЏ РЅР° <strong>'+EMAIL+'</strong> РґРѕ <strong>30 Р»РёСЃС‚РѕРїР°РґР° 2026 СЂ.</strong> РџРµСЂРµРґ РІС–РґРїСЂР°РІР»РµРЅРЅСЏРј РїСЂРѕР№РґС–С‚СЊ С‡РµРє-Р»РёСЃС‚ РѕС„РѕСЂРјР»РµРЅРЅСЏ РЅРёР¶С‡Рµ.',
-      submitSeparateNote:'Р РµС”СЃС‚СЂР°С†С–СЏ СѓС‡Р°СЃРЅРёРєР° С” РѕР±РѕРІвЂ™СЏР·РєРѕРІРѕСЋ С– РІРёРєРѕРЅСѓС”С‚СЊСЃСЏ РѕРєСЂРµРјРѕ (СЂРѕР·РґС–Р» В«Р РµС”СЃС‚СЂР°С†С–СЏВ»). РџРѕРґР°РЅРЅСЏ РЅР°СѓРєРѕРІРѕС— РґРѕРїРѕРІС–РґС– Р·РґС–Р№СЃРЅСЋС”С‚СЊСЃСЏ С‚СѓС‚, РІС–РґРїРѕРІС–РґРЅРѕ РґРѕ РІРёРјРѕРі РєРѕРЅС„РµСЂРµРЅС†С–С—.',
-      deadlineRemaining:function(n){ return 'Р”Рѕ РґРµРґР»Р°Р№РЅСѓ РїРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґРµР№ (30 Р»РёСЃС‚РѕРїР°РґР° 2026 СЂ.) Р·Р°Р»РёС€РёР»РѕСЃСЏ ' + n + ' РґРЅ.'; },
-      deadlinePassed:'РўРµСЂРјС–РЅ РїРѕРґР°РЅРЅСЏ РґРѕРїРѕРІС–РґРµР№ (30 Р»РёСЃС‚РѕРїР°РґР° 2026 СЂ.) РјРёРЅСѓРІ вЂ” СѓС‚РѕС‡РЅС–С‚СЊ РјРѕР¶Р»РёРІС–СЃС‚СЊ РїРѕРґР°РЅРЅСЏ РІ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ.',
-      checklistLegend:'Р§РµРє-Р»РёСЃС‚ РѕС„РѕСЂРјР»РµРЅРЅСЏ СЃС‚Р°С‚С‚С– вЂ” СЃР°РјРѕРїРµСЂРµРІС–СЂРєР°',
-      clCountTpl:function(checked,total){ return checked + ' / ' + total + ' РїСѓРЅРєС‚С–РІ РїРѕР·РЅР°С‡РµРЅРѕ'; },
-      submitFormEyebrow:'Р¤РѕСЂРјР° РїРѕРґР°РЅРЅСЏ (РѕРЅР»Р°Р№РЅ)',
-      reqPanelTitle:'Р“РѕР»РѕРІРЅС– РІРёРјРѕРіРё РґРѕ РѕС„РѕСЂРјР»РµРЅРЅСЏ',
-      submitWarnNote:'РњР°С‚РµСЂС–Р°Р»Рё, С‰Рѕ РЅРµ РІС–РґРїРѕРІС–РґР°СЋС‚СЊ С‚РµРјР°С‚РёС†С– РєРѕРЅС„РµСЂРµРЅС†С–С—, РІРёРјРѕРіР°Рј РґРѕ РѕС„РѕСЂРјР»РµРЅРЅСЏ Р°Р±Рѕ РЅР°РґС–Р№С€Р»Рё Р· Р·Р°РїС–Р·РЅРµРЅРЅСЏРј, РґРѕ Р·Р±С–СЂРЅРёРєР° РЅРµ РІРєР»СЋС‡Р°СЋС‚СЊСЃСЏ. РћСЂРіР°РЅС–Р·Р°С†С–Р№РЅРёР№ РІРЅРµСЃРѕРє РЅРµ РїРµСЂРµРґР±Р°С‡Р°С”С‚СЊСЃСЏ.',
+      submitEyebrow:'Подання рукопису',
+      submitH2:'Реєстрація матеріалів доповіді',
+      submitLede:'Текст доповіді (5–8 сторінок) подається через Google Форму до <strong>30 жовтня 2026 р.</strong> Перед поданням пройдіть чек-лист оформлення — так матеріал одразу відповідатиме вимогам збірника.',
+      deadlineCalculating:'Розрахунок днів до дедлайну…',
+      deadlineRemaining:function(n){ return 'До дедлайну подання рукописів (30 жовтня 2026 р.) залишилося ' + n + ' дн.'; },
+      deadlinePassed:'Термін подання рукописів (30 жовтня 2026 р.) минув — уточніть можливість подання в оргкомітету.',
+      checklistLegend:'Чек-лист оформлення публікації — самоперевірка',
+      clCountTpl:function(checked,total){ return checked + ' / ' + total + ' пунктів позначено'; },
+      submitFormEyebrow:'Форма подання',
+      reqPanelTitle:'Головні вимоги до оформлення',
+      submitWarnNote:'Матеріали, що не відповідають тематиці, вимогам до оформлення або надійшли із запізненням, до збірника не включаються.',
 
-      statusEyebrow:'Р РµС†РµРЅР·СѓРІР°РЅРЅСЏ',
-      statusH2:'РџС–СЃР»СЏ РїРѕРґР°РЅРЅСЏ: СЂРµС†РµРЅР·СѓРІР°РЅРЅСЏ С‚Р° РґРѕРѕРїСЂР°С†СЋРІР°РЅРЅСЏ',
-      statusLede:'Р РµС”СЃС‚СЂР°С†С–СЏ в†’ РїРѕРґР°РЅРЅСЏ СЃС‚Р°С‚С‚С– в†’ РїРµСЂРµРІС–СЂРєР° РѕСЂРіРєРѕРјС–С‚РµС‚РѕРј в†’ СЂРµС†РµРЅР·СѓРІР°РЅРЅСЏ в†’ РґРѕРѕРїСЂР°С†СЋРІР°РЅРЅСЏ (Р·Р° РїРѕС‚СЂРµР±Рё) в†’ СЂС–С€РµРЅРЅСЏ в†’ Р·Р±С–СЂРЅРёРє. РџСЂРёР№РЅСЏС‚С‚СЏ СЃС‚Р°С‚С‚С– РЅРµ С” Р°РІС‚РѕРјР°С‚РёС‡РЅРёРј.',
-      statusGoal1:'<strong>Р РѕР·РіР»СЏРґ.</strong> РћСЂРіРєРѕРјС–С‚РµС‚ РїРµСЂРµРІС–СЂСЏС” РґРѕРїРѕРІС–РґСЊ РЅР° РІС–РґРїРѕРІС–РґРЅС–СЃС‚СЊ С‚РµРјР°С‚РёС†С– Р№ РІРёРјРѕРіР°Рј РґРѕ РѕС„РѕСЂРјР»РµРЅРЅСЏ.',
-      statusGoal2:'<strong>Р—Р°СѓРІР°Р¶РµРЅРЅСЏ.</strong> Р—Р° РїРѕС‚СЂРµР±Рё СЂРµС†РµРЅР·РµРЅС‚Рё РЅР°РґСЃРёР»Р°СЋС‚СЊ Р·Р°СѓРІР°Р¶РµРЅРЅСЏ С‚Р° РїСЂРѕРїРѕР·РёС†С–С— РЅР° РІР°С€Сѓ РїРѕС€С‚Сѓ.',
-      statusGoal3:'<strong>Р”РѕРѕРїСЂР°С†СЋРІР°РЅРЅСЏ.</strong> Р’Рё РЅР°РґСЃРёР»Р°С”С‚Рµ РІРёРїСЂР°РІР»РµРЅСѓ РІРµСЂСЃС–СЋ СЃС‚Р°С‚С‚С– Сѓ РІС–РґРїРѕРІС–РґСЊ РЅР° Р»РёСЃС‚ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ.',
-      statusGoal4:'<strong>Р С–С€РµРЅРЅСЏ.</strong> РћСЂРіРєРѕРјС–С‚РµС‚ РїС–РґС‚РІРµСЂРґР¶СѓС” РІРєР»СЋС‡РµРЅРЅСЏ СЃС‚Р°С‚С‚С– РґРѕ Р·Р±С–СЂРЅРёРєР°; РєСЂР°С‰С– вЂ” СЂРµРєРѕРјРµРЅРґСѓС” Р¶СѓСЂРЅР°Р»Сѓ В«РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚В».',
-      statusInfoNote1:'Р”Рѕ Р·Р±С–СЂРЅРёРєР° Р№РґРµ С„Р°Р№Р», РЅР°РґС–СЃР»Р°РЅРёР№ РЅР° РїРѕС€С‚Сѓ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ, Р°Р±Рѕ вЂ” СЏРєС‰Рѕ Р±СѓР»Рё Р·Р°СѓРІР°Р¶РµРЅРЅСЏ вЂ” РґРѕРѕРїСЂР°С†СЊРѕРІР°РЅР° РІРµСЂСЃС–СЏ, РЅР°РґС–СЃР»Р°РЅР° Сѓ РІС–РґРїРѕРІС–РґСЊ РЅР° Р»РёСЃС‚ СЂРµС†РµРЅР·РµРЅС‚С–РІ. РћРєСЂРµРјРѕС— С„РѕСЂРјРё РґР»СЏ В«С„С–РЅР°Р»СЊРЅРѕРіРѕ С„Р°Р№Р»СѓВ» РЅРµ РїРѕС‚СЂС–Р±РЅРѕ.',
-      statusFormEyebrow:'Р¤РѕСЂРјР° РґР»СЏ РґРѕРѕРїСЂР°С†СЊРѕРІР°РЅРѕС— РІРµСЂСЃС–С— (РѕРЅР»Р°Р№РЅ)',
-      statusInfoNote2:'Р†Р· Р·Р°РіР°Р»СЊРЅРёС… РїРёС‚Р°РЅСЊ С‰РѕРґРѕ СЃС‚Р°РЅСѓ СЂРѕР·РіР»СЏРґСѓ Р·РІРµСЂС‚Р°Р№С‚РµСЃСЏ РґРѕ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ: <a href="mailto:'+EMAIL+'">'+EMAIL+'</a> В· '+PHONE+'.',
-      embedPlaceholderManuscript:'Google Р¤РѕСЂРјСѓ РїРѕРґР°РЅРЅСЏ СЂСѓРєРѕРїРёСЃСѓ С‰Рµ РЅРµ РїС–РґРєР»СЋС‡РµРЅРѕ.',
-      embedPlaceholderRevision:'Google Р¤РѕСЂРјСѓ РґР»СЏ РґРѕРѕРїСЂР°С†СЊРѕРІР°РЅРѕС— РІРµСЂСЃС–С— С‰Рµ РЅРµ РїС–РґРєР»СЋС‡РµРЅРѕ.',
-      embedVarNote:function(v){ return 'Р’СЃС‚Р°РІС‚Рµ РїРѕСЃРёР»Р°РЅРЅСЏ Сѓ Р·РјС–РЅРЅСѓ ' + v + ' РЅР° РїРѕС‡Р°С‚РєСѓ С„Р°Р№Р»Сѓ.'; },
-      embedOpenLink:'Р’С–РґРєСЂРёС‚Рё С„РѕСЂРјСѓ РІ РЅРѕРІС–Р№ РІРєР»Р°РґС†С– в†—',
+      statusEyebrow:'Робота із зауваженнями',
+      statusH2:'Супровід рукопису після подання',
+      statusLede:'Оргкомітет надсилає зауваження рецензентів і рішення щодо рукопису на вказану вами електронну пошту. Доопрацьовану версію статті та відповідь на зауваження подайте через форму нижче.',
+      statusGoal1:'<strong>Розгляд.</strong> Оргкомітет перевіряє рукопис на відповідність тематиці й вимогам до оформлення.',
+      statusGoal2:'<strong>Зауваження.</strong> За потреби рецензенти надсилають зауваження та пропозиції на вашу пошту.',
+      statusGoal3:'<strong>Доопрацювання.</strong> Ви надсилаєте виправлену версію та відповідь на кожне зауваження через форму нижче.',
+      statusGoal4:'<strong>Рішення.</strong> Оргкомітет підтверджує включення статті до електронного збірника з ISBN.',
+      statusInfoNote1:'До збірника йде: файл, поданий через форму подання рукопису, якщо зауважень не було, або доопрацьований файл, завантажений через форму відповіді на зауваження нижче, якщо зауваження були. Окремої форми для «фінального файлу» не потрібно.',
+      statusFormEyebrow:'Форма відповіді на зауваження',
+      statusInfoNote2:'Із загальних питань щодо стану розгляду звертайтеся до оргкомітету: <a href="mailto:kovalevskii61@gmail.com">kovalevskii61@gmail.com</a> · +38 050 478 0394.',
 
-      contactsEyebrow:'РљРѕРЅС‚Р°РєС‚Рё',
-      contactsH2:'РћСЂРіР°РЅС–Р·Р°С†С–Р№РЅРёР№ РєРѕРјС–С‚РµС‚',
-      venueEyebrow:'РњС–СЃС†Рµ РїСЂРѕРІРµРґРµРЅРЅСЏ',
-      venueName:'Р’С–РЅРЅРёС†СЊРєРёР№ РЅР°С†С–РѕРЅР°Р»СЊРЅРёР№ С‚РµС…РЅС–С‡РЅРёР№ СѓРЅС–РІРµСЂСЃРёС‚РµС‚',
-      venueDept:'РљР°С„РµРґСЂР° С‚РµС…РЅРѕР»РѕРіС–Р№ С‚Р° Р°РІС‚РѕРјР°С‚РёР·Р°С†С–С— РјР°С€РёРЅРѕР±СѓРґСѓРІР°РЅРЅСЏ',
-      venueLine:'Рј. Р’С–РЅРЅРёС†СЏ, РЈРєСЂР°С—РЅР° В· С„РѕСЂРјР°С‚ вЂ” off-line С‚Р° on-line',
-      contactsPanel:'Р— СѓСЃС–С… РїРёС‚Р°РЅСЊ СѓС‡Р°СЃС‚С– Р·РІРµСЂС‚Р°Р№С‚РµСЃСЏ РґРѕ РѕСЂРіРєРѕРјС–С‚РµС‚Сѓ: <a class="mono" href="mailto:'+EMAIL+'">'+EMAIL+'</a> В· <span class="mono">'+PHONE+'</span>',
+      contactsEyebrow:'Контакти',
+      contactsH2:'Організаційний комітет',
+      venueEyebrow:'Місце проведення',
+      venueName:'Вінницький національний технічний університет',
+      venueDept:'Кафедра технологій та автоматизації машинобудування',
+      venueLine:'м. Вінниця, Україна · формат — off-line та on-line (Zoom, Google Meet)',
+      contactsPanel:'З усіх питань участі звертайтеся до оргкомітету: <a class="mono" href="mailto:kovalevskii61@gmail.com">kovalevskii61@gmail.com</a> · <span class="mono">+38 050 478 0394</span>',
 
-      footerLine1:'XXV РњС–Р¶РЅР°СЂРѕРґРЅР° РЅР°СѓРєРѕРІР° РєРѕРЅС„РµСЂРµРЅС†С–СЏ В«РќРµР№СЂРѕРјРµСЂРµР¶РЅС– С‚РµС…РЅРѕР»РѕРіС–С— С‚Р° С—С… Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏВ» РќРњРўР—-2026 В· 11вЂ“12 РіСЂСѓРґРЅСЏ 2026 В· Р’С–РЅРЅРёС†СЏ',
-      footerLine2:'Р—Р±С–СЂРЅРёРє РјР°С‚РµСЂС–Р°Р»С–РІ РєРѕРЅС„РµСЂРµРЅС†С–С—; СЂРµРєРѕРјРµРЅРґРѕРІР°РЅС– СЃС‚Р°С‚С‚С– вЂ” РґРѕ Р¶СѓСЂРЅР°Р»Сѓ В«РЁС‚СѓС‡РЅРёР№ С–РЅС‚РµР»РµРєС‚В»'
+      footerLine1:'XVIII Міжнародна наукова конференція «Сучасна освіта — доступність, якість, визнання» · 13–14 листопада 2026 · Вінниця',
+      footerLine2:'Електронний збірник матеріалів конференції з ISBN',
+
+      embedPlaceholderRegister:'Google Форму реєстрації ще не підключено.',
+      embedPlaceholderManuscript:'Google Форму подання рукопису ще не підключено.',
+      embedPlaceholderRevision:'Google Форму відповіді на зауваження ще не підключено.',
+      embedVarNote:function(v){ return 'Вставте URL у змінну ' + v + ' на початку файлу (розділ CONFIG).'; },
+      embedOpenLink:'Відкрити в новій вкладці ↗'
     },
     en: {
-      pageTitle:'NNTA-2026',
+      pageTitle:'Modern Education 2026',
       navAria:'Site sections',
-      nav:{ home:'Home', about:'About', register:'Registration', submit:'Submit Paper', status:'Peer Review', contacts:'Contacts' },
+      nav:{ home:'Home', about:'About', register:'Registration', submit:'Submit Manuscript', status:'Revisions', contacts:'Contacts' },
       themeTitle:'Toggle theme',
-      langBtn:'РЈРљР ', langTitle:'РџРµСЂРµРјРєРЅСѓС‚Рё РЅР° СѓРєСЂР°С—РЅСЃСЊРєСѓ',
+      langBtn:'УКР', langTitle:'Перемкнути на українську',
       letterhead:'Vinnytsia National Technical University (Ukraine)',
-      homeEyebrow:'25th International Scientific Conference',
-      homeTitle:'Neural Network Technologies and Applications вЂ” NNTA-2026',
-      homeLede:'The organizing committee invites you to take part in the conference on 11вЂ“12 December 2026, held in hybrid format (on-site and online) at Vinnytsia National Technical University. Discussion of research results is planned across seven tracks вЂ” from deep learning and digital twins to smart manufacturing, robotics, AI-driven control, applications of artificial intelligence in education, and the ethical and legal aspects of its development.',
-      metaDatesK:'Dates', metaDatesV:'11вЂ“12 December 2026',
+      homeEyebrow:'XVIII International Scientific Conference',
+      homeTitle:'Modern Education — Accessibility, Quality, Recognition',
+      homeLede:'The organizing committee invites you to this annual conference devoted to the challenges and priority directions of education development in Ukraine and worldwide, to sharing experience in quality assurance and expanding academic mobility, and to integrating school, vocational pre-higher, and higher education into the global educational space.',
+      metaDatesK:'Dates', metaDatesV:'13–14 November 2026',
       metaVenueK:'Venue', metaVenueV:'Vinnytsia National Technical University, Vinnytsia, Ukraine',
-      metaFormatK:'Format', metaFormatV:'hybrid вЂ” on-site and online',
+      metaFormatK:'Format', metaFormatV:'hybrid — on-site and online (Zoom, Google Meet)',
       metaLangK:'Languages', metaLangV:'Ukrainian, English',
       metaFeeK:'Fee', metaFeeV:'none',
-      ctaRegister:'Register в†’', ctaSubmit:'Submit a paper в†’', ctaAbout:'Topics & committee',
-      pathAEyebrow:'I want to attend', pathATitle:'Register as a participant',
-      pathAText:'Registration is required for everyone вЂ” a speaker, a co-author, or a listener who will simply attend.',
-      pathABtn:'Register в†’',
-      pathBEyebrow:'I want to submit a paper', pathBTitle:'Submit your paper',
-      pathBText:'Separately from registration, prepare your paper per the requirements and send it to the organizing committee for review.',
-      pathBBtn:'Submit a paper в†’',
-      statSectionsL:'conference tracks', statPartnersL:'partner institutions, 8 countries',
-      statDeadlineL:'days to submission deadline',
+      ctaRegister:'Register →', ctaSubmit:'Submit a manuscript →', ctaAbout:'Topics & committee',
+      statSectionsL:'thematic sections', statPartnersL:'partner institutions, 12 countries',
+      statDeadlineL:'days to submission deadline', statIsbnL:'electronic proceedings',
       keyDatesEyebrow:'Key dates',
-      howEyebrow:'How to take part',
-      step1:'<strong>1. Registration.</strong> Fill out the registration form вЂ” required for every participant, listeners included.',
-      step2:'<strong>2. Prepare the paper.</strong> Format your paper per the requirements (for speakers and co-authors).',
-      step3:'<strong>3. Submit the paper.</strong> Send the paper file and author details to the organizing committeeвЂ™s email by 30 November 2026.',
-      step4:'<strong>4. Peer review.</strong> The organizing committee checks compliance with the requirements and may email comments.',
-      step5:'<strong>5. Take part in the conference.</strong> 11вЂ“12 December 2026; your paper joins the proceedings, and recommended ones go to the journal "Shtuchnyi Intelekt".',
-      stepsNote:'Listeners who are not submitting a paper only need step 1.',
-      homeInfoNote:'Participant registration is required for everyone вЂ” speakers, co-authors, and listeners вЂ” and is a separate process from submitting a scientific paper. This page is the conferenceвЂ™s information shell, with the registration form, the paper formatting requirements, and direct contacts for the organizing committee.',
+      howEyebrow:'How your submission moves through the process',
+      step1:'<strong>1. Registration.</strong> Fill out the participant registration Google Form — the organizing committee compiles the participant list from the responses.',
+      step2:'<strong>2. Manuscript submission.</strong> Work through the formatting checklist, then fill out the submission Google Form and attach your paper file.',
+      step3:'<strong>3. Review and revisions.</strong> The organizing committee emails you the reviewers\' comments; submit your response and the revised version through the revisions form on the "Revisions" page.',
+      homeInfoNote:'Registration and manuscript submission are handled through Google Forms, and the review process through a separate response form. This page is the conference\'s information shell, with direct links to all the forms.',
 
       aboutEyebrow:'About the Conference',
-      aboutH2:'Goals, Organizers, and Organizing Committee',
+      aboutH2:'Goals, Organizers, and Program Committee',
       goalsH3:'Conference Goals',
-      goal1:'Discussing research results and developments in neural network technologies, digital twins, smart manufacturing, and robotics.',
-      goal2:'Strengthening international cooperation between educational and research institutions in Ukraine and partner countries.',
-      goal3:'Publishing the best papers in the conference proceedings and recommending selected articles to the peer-reviewed journal "Shtuchnyi Intelekt" (Artificial Intelligence).',
+      goal1:'Discussing the challenges and priority directions of education development in light of the present and future challenges facing Ukraine.',
+      goal2:'Sharing experience in quality assurance and expanding educational mobility under current conditions.',
+      goal3:'Furthering the integration of school, extracurricular, vocational pre-higher, and higher education into the global educational space.',
       orgsH3:'Organizers and Partner Institutions',
-      orgsLede:'The conference is hosted by Vinnytsia National Technical University with partners from 8 countries.',
-      committeeH3:'Organizing Committee',
+      orgsLede:'The conference is hosted by Vinnytsia National Technical University with partners from 12 countries.',
+      committeeH3:'Program Committee',
       langH3:'Working Languages',
       badgeUk:'Ukrainian',
-      topicsH3:'Conference Tracks',
-      topicsNote:'The organizing committee also welcomes proposals on other topics relevant to the conference themes.',
-      sectionLabel:'TRACK',
+      topicsH3:'Conference Topics',
+      sectionLabel:'SECTION',
 
-      registerEyebrow:'Registration',
-      registerH2:'Participant Registration вЂ” Required',
-      registerLede:'Registration is required for every conference participant вЂ” a speaker, a co-author, or a listener not submitting a paper. Fill out the form below.',
-      registerSeparateNote:'Registration and paper submission are two separate processes. If you are also submitting a paper, go to the "Submit Paper" section after registering.',
-      regConfigNoticeText:'The online registration form is not yet connected to the organizing committeeвЂ™s Google Form. The fields below show what data will be collected, but submission is currently disabled вЂ” ask the pageвЂ™s developer to set REGISTRATION_FORM_URL and REGISTRATION_ENTRY_IDS in the code.',
-      regBlock1Legend:'Personal details',
-      regFullNameLabel:'Full name',
-      regEmailLabel:'Email address', regPhoneLabel:'Phone number',
-      regBlock2Legend:'Institution',
-      regCountryLabel:'Country', regInstitutionLabel:'Institution', regDegreePositionLabel:'Academic degree, academic title, position',
-      regBlock3Legend:'Participation',
-      regParticipationFormatLabel:'Participation format', regManuscriptLabel:'Will you also submit a manuscript?',
-      regTrackLabel:'Section', regTrackPlaceholder:'Choose a sectionвЂ¦',
-      regInviteLabel:'Do you need an official invitation letter?', regInvitePlaceholder:'ChooseвЂ¦',
-      regBlock4Legend:'Additional comments',
-      regCommentsLabel:'Additional comments',
-      regBlock5Legend:'Consent',
-      regConsentLabel:'I consent to the processing of my personal data by the NNTA-2026 organizing committee for the purpose of registration and running the conference.',
-      regSubmitBtn:'REGISTER',
-      regNotConfigured:'The online registration form has not been connected by the organizing committee yet. Data from this form is not being sent anywhere at the moment.',
-      regInvalid:'Please check the highlighted fields вЂ” some required information is missing or incorrectly formatted.',
-      regThankYouTitle:'Thank you for registering!',
-      regThankYouText:'Your details have been sent to the NNTA-2026 organizing committee. If you plan to submit a scientific paper, go to the "Submit Paper" section.',
-      regThankYouCta:'Go to paper submission в†’',
-      registerPanelTitle:'Conference tracks',
-      regWhoTitle:'Who registers',
-      regWho1:'Speaker вЂ” presents a paper and submits the article.',
-      regWho2:'Co-author вЂ” listed among the paperвЂ™s authors, without necessarily presenting.',
-      regWho3:'Listener вЂ” attends without submitting a paper; registration is required all the same.',
-      regDeadlineSet:function(d){ return 'Registration deadline: ' + d + '.'; },
-      regDeadlineOpen:'The organizing committee has not set a separate registration deadline yet вЂ” we recommend registering as early as possible, ahead of the paper submission deadline (30 November 2026).',
+      registerEyebrow:'Participant Registration',
+      registerH2:'Registration Form',
+      registerLede:'Registration is handled through a Google Form — fill it out below or open it in a new tab. The organizing committee compiles the participant list from the responses received.',
+      registerInfoEyebrow:'Good to Know',
+      registerInfoNote:'After registration, your details are added to the organizing committee\'s register. If you need an official invitation letter, note this in the form or email <span class="mono">kovalevskii61@gmail.com</span>.',
+      registerPanelTitle:'Conference Sections',
 
       submitEyebrow:'Manuscript Submission',
-      submitH2:'Sending Your Paper',
-      submitLede:'The paper text, prepared as a scientific article (up to 10 pages, as a single file), is sent to <strong>'+EMAIL+'</strong> by <strong>30 November 2026.</strong> Before sending, work through the formatting checklist below.',
-      submitSeparateNote:'Participant registration is required and is done separately (see the "Registration" section). Submitting a scientific paper happens here, per the conference requirements.',
-      deadlineRemaining:function(n){ return 'Days remaining until the manuscript submission deadline (30 November 2026): ' + n; },
-      deadlinePassed:'The manuscript submission deadline (30 November 2026) has passed вЂ” please contact the organizing committee to check whether late submission is possible.',
-      checklistLegend:'Article formatting checklist вЂ” self-check',
+      submitH2:'Submitting Your Paper',
+      submitLede:'The paper text (5–8 pages) is submitted via a Google Form by <strong>30 October 2026.</strong> Before submitting, work through the formatting checklist so your paper meets the proceedings\' requirements from the start.',
+      deadlineCalculating:'Calculating days to the deadline…',
+      deadlineRemaining:function(n){ return 'Days remaining until the manuscript submission deadline (30 October 2026): ' + n; },
+      deadlinePassed:'The manuscript submission deadline (30 October 2026) has passed — please contact the organizing committee to check whether late submission is possible.',
+      checklistLegend:'Formatting checklist — self-check',
       clCountTpl:function(checked,total){ return checked + ' / ' + total + ' items checked'; },
-      submitFormEyebrow:'Submission form (online)',
+      submitFormEyebrow:'Submission form',
       reqPanelTitle:'Key formatting requirements',
-      submitWarnNote:'Papers that do not match the conference topics, do not meet the formatting requirements, or arrive after the deadline will not be included in the proceedings. There is no participation fee.',
+      submitWarnNote:'Papers that do not match the conference topics, do not meet the formatting requirements, or arrive after the deadline will not be included in the proceedings.',
 
-      statusEyebrow:'Peer Review',
-      statusH2:'After Submission: Review and Revision',
-      statusLede:'Registration в†’ paper submission в†’ organizing committeeвЂ™s check в†’ peer review в†’ revision (if needed) в†’ decision в†’ proceedings. Acceptance of a paper is not automatic.',
-      statusGoal1:'<strong>Review.</strong> The organizing committee checks the paper against the conference topics and formatting requirements.',
+      statusEyebrow:'Working with Reviewer Comments',
+      statusH2:'After You Submit: Review Process',
+      statusLede:'The organizing committee sends reviewer comments and decisions about your manuscript to the email address you provided. Submit the revised version of your paper and your response to the comments through the form below.',
+      statusGoal1:'<strong>Review.</strong> The organizing committee checks the manuscript against the conference topics and formatting requirements.',
       statusGoal2:'<strong>Comments.</strong> If needed, reviewers send comments and suggestions to your email.',
-      statusGoal3:'<strong>Revision.</strong> You send the corrected version of the paper as a reply to the organizing committeeвЂ™s email.',
-      statusGoal4:'<strong>Decision.</strong> The organizing committee confirms inclusion in the proceedings; the best papers are recommended to the journal "Shtuchnyi Intelekt".',
-      statusInfoNote1:'The proceedings use the file sent to the organizing committeeвЂ™s email, or вЂ” if there were comments вЂ” the revised version sent as a reply to the reviewersвЂ™ email. No separate form for a "final file" is needed.',
-      statusFormEyebrow:'Revised-version form (online)',
-      statusInfoNote2:'For general questions about the status of your submission, contact the organizing committee: <a href="mailto:'+EMAIL+'">'+EMAIL+'</a> В· '+PHONE+'.',
-      embedPlaceholderManuscript:'The manuscript submission Google Form has not been connected yet.',
-      embedPlaceholderRevision:'The revised-version Google Form has not been connected yet.',
-      embedVarNote:function(v){ return 'Paste the link into the ' + v + ' variable near the top of the file.'; },
-      embedOpenLink:'Open the form in a new tab в†—',
+      statusGoal3:'<strong>Revision.</strong> You submit the corrected version and a response to each comment through the form below.',
+      statusGoal4:'<strong>Decision.</strong> The organizing committee confirms inclusion of the paper in the electronic proceedings with an ISBN.',
+      statusInfoNote1:'The proceedings use the file submitted through the manuscript submission form, if there were no comments, or the revised file uploaded through the response form below, if there were comments. No separate "final file" form is needed.',
+      statusFormEyebrow:'Reviewer-response form',
+      statusInfoNote2:'For general questions about the status of your submission, contact the organizing committee: <a href="mailto:kovalevskii61@gmail.com">kovalevskii61@gmail.com</a> · +38 050 478 0394.',
 
       contactsEyebrow:'Contacts',
       contactsH2:'Organizing Committee',
       venueEyebrow:'Venue',
       venueName:'Vinnytsia National Technical University',
       venueDept:'Department of Mechanical Engineering Technologies and Automation',
-      venueLine:'Vinnytsia, Ukraine В· format вЂ” on-site and online',
-      contactsPanel:'For any questions about participation, contact the organizing committee: <a class="mono" href="mailto:'+EMAIL+'">'+EMAIL+'</a> В· <span class="mono">'+PHONE+'</span>',
+      venueLine:'Vinnytsia, Ukraine · format — on-site and online (Zoom, Google Meet)',
+      contactsPanel:'For any questions about participation, contact the organizing committee: <a class="mono" href="mailto:kovalevskii61@gmail.com">kovalevskii61@gmail.com</a> · <span class="mono">+38 050 478 0394</span>',
 
-      footerLine1:'25th International Scientific Conference "Neural Network Technologies and Applications" NNTA-2026 В· 11вЂ“12 December 2026 В· Vinnytsia',
-      footerLine2:'Conference proceedings; recommended papers are forwarded to the journal "Shtuchnyi Intelekt"'
+      footerLine1:'XVIII International Scientific Conference "Modern Education — Accessibility, Quality, Recognition" · 13–14 November 2026 · Vinnytsia',
+      footerLine2:'Electronic conference proceedings with an ISBN',
+
+      embedPlaceholderRegister:'The registration Google Form has not been connected yet.',
+      embedPlaceholderManuscript:'The manuscript submission Google Form has not been connected yet.',
+      embedPlaceholderRevision:'The reviewer-response Google Form has not been connected yet.',
+      embedVarNote:function(v){ return 'Paste the URL into the ' + v + ' variable near the top of the file (CONFIG section).'; },
+      embedOpenLink:'Open in a new tab ↗'
     }
   };
 
@@ -1144,22 +1037,18 @@
     (children||[]).forEach(function(c){ if(c) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c); });
     return e;
   }
+  function pad(n){ return n < 10 ? '0'+n : ''+n; }
+  function fmtDate(d){ return pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'+d.getFullYear(); }
+  function daysBetween(a,b){ return Math.ceil((b - a) / 86400000); }
   function setText(id, text){ var e = document.getElementById(id); if(e) e.textContent = text; }
   function setHtml(id, html){ var e = document.getElementById(id); if(e) e.innerHTML = html; }
-  function daysBetween(a,b){ return Math.ceil((b - a) / 86400000); }
-  function safeGet(key){ try{ return localStorage.getItem(key); }catch(e){ return null; } }
-  function safeSet(key,val){ try{ localStorage.setItem(key,val); }catch(e){} }
-  function fmtDate(d){ function pad(n){return n<10?'0'+n:''+n;} return pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'+d.getFullYear(); }
 
-  var DEADLINE = new Date(2026,10,30);   // 30 Р»РёСЃС‚РѕРїР°РґР° 2026
-  var CONF_START = new Date(2026,11,11); // 11 РіСЂСѓРґРЅСЏ 2026
+  var DEADLINE = new Date(2026,9,30); // 30 жовтня 2026 / 30 October 2026
+  var CONF_START = new Date(2026,10,13); // 13 листопада 2026 / 13 November 2026
   var REF_DATES = { DEADLINE:DEADLINE, CONF_START:CONF_START };
   var NOW = new Date();
 
   /* ---------------- LANGUAGE STATE ---------------- */
-  /* Always opens in English first; Ukrainian is available on demand via
-     the language toggle in the header. Not tied to any stored/previous
-     preference, so it can't get "stuck" on a language chosen earlier. */
   var LANG_DEFAULT = 'en';
   var currentLang = LANG_DEFAULT;
 
@@ -1191,19 +1080,14 @@
   function applyTheme(t){
     if(t) document.documentElement.setAttribute('data-theme', t);
     else document.documentElement.removeAttribute('data-theme');
-    safeSet('nntiz-theme', t || '');
   }
   themeBtn.addEventListener('click', function(){
     var cur = document.documentElement.getAttribute('data-theme');
     var next = cur === 'dark' ? 'light' : (cur === 'light' ? null : 'dark');
     applyTheme(next);
   });
-  (function initTheme(){
-    var saved = safeGet('nntiz-theme');
-    if(saved) applyTheme(saved);
-  })();
 
-  /* ---------------- RENDER: STATIC TEXT ---------------- */
+  /* ---------------- RENDER: STATIC TEXT (language-dependent) ---------------- */
   function renderStaticText(){
     var t = I18N[currentLang];
     document.getElementById('pageTitle').textContent = t.pageTitle;
@@ -1229,17 +1113,11 @@
     setText('metaLangK', t.metaLangK); setText('metaLangV', t.metaLangV);
     setText('metaFeeK', t.metaFeeK); setText('metaFeeV', t.metaFeeV);
     setText('ctaRegister', t.ctaRegister); setText('ctaSubmit', t.ctaSubmit); setText('ctaAbout', t.ctaAbout);
-    setText('pathAEyebrow', t.pathAEyebrow); setText('pathATitle', t.pathATitle); setText('pathAText', t.pathAText); setText('pathABtn', t.pathABtn);
-    setText('pathBEyebrow', t.pathBEyebrow); setText('pathBTitle', t.pathBTitle); setText('pathBText', t.pathBText); setText('pathBBtn', t.pathBBtn);
     setText('statSectionsL', t.statSectionsL); setText('statPartnersL', t.statPartnersL);
-    setText('statDeadlineL', t.statDeadlineL);
-    setText('statDigestN', currentLang === 'uk' ? 'Р—Р±С–СЂРЅРёРє' : 'Proceedings');
-    setText('statDigestL', currentLang === 'uk' ? 'Р·Р±С–СЂРЅРёРє РјР°С‚РµСЂС–Р°Р»С–РІ РєРѕРЅС„РµСЂРµРЅС†С–С—' : 'electronic conference proceedings');
+    setText('statDeadlineL', t.statDeadlineL); setText('statIsbnL', t.statIsbnL);
     setText('keyDatesEyebrow', t.keyDatesEyebrow);
     setText('howEyebrow', t.howEyebrow);
     setHtml('step1', t.step1); setHtml('step2', t.step2); setHtml('step3', t.step3);
-    setHtml('step4', t.step4); setHtml('step5', t.step5);
-    setText('stepsNote', t.stepsNote);
     setText('homeInfoNote', t.homeInfoNote);
 
     setText('aboutEyebrow', t.aboutEyebrow);
@@ -1252,36 +1130,17 @@
     setText('langH3', t.langH3);
     setText('badgeUk', t.badgeUk);
     setText('topicsH3', t.topicsH3);
-    setText('topicsNote', t.topicsNote);
 
     setText('registerEyebrow', t.registerEyebrow);
     setText('registerH2', t.registerH2);
     setText('registerLede', t.registerLede);
-    setText('registerSeparateNote', t.registerSeparateNote);
-    setText('regConfigNoticeText', t.regConfigNoticeText);
-    setText('regBlock1Legend', t.regBlock1Legend);
-    setText('regFullNameLabel', t.regFullNameLabel);
-    setText('regEmailLabel', t.regEmailLabel); setText('regPhoneLabel', t.regPhoneLabel);
-    setText('regBlock2Legend', t.regBlock2Legend);
-    setText('regCountryLabel', t.regCountryLabel); setText('regInstitutionLabel', t.regInstitutionLabel); setText('regDegreePositionLabel', t.regDegreePositionLabel);
-    setText('regBlock3Legend', t.regBlock3Legend);
-    setText('regParticipationFormatLabel', t.regParticipationFormatLabel); setText('regManuscriptLabel', t.regManuscriptLabel);
-    setText('regTrackLabel', t.regTrackLabel); setText('regInviteLabel', t.regInviteLabel);
-    setText('regBlock4Legend', t.regBlock4Legend);
-    setText('regCommentsLabel', t.regCommentsLabel);
-    setText('regBlock5Legend', t.regBlock5Legend);
-    setText('regConsentLabel', t.regConsentLabel);
-    setText('regSubmitBtn', t.regSubmitBtn);
-    setText('regThankYouTitle', t.regThankYouTitle);
-    setText('regThankYouText', t.regThankYouText);
-    setText('regThankYouCta', t.regThankYouCta);
+    setText('registerInfoEyebrow', t.registerInfoEyebrow);
+    setHtml('registerInfoNote', t.registerInfoNote);
     setText('registerPanelTitle', t.registerPanelTitle);
-    setText('regWhoTitle', t.regWhoTitle);
 
     setText('submitEyebrow', t.submitEyebrow);
     setText('submitH2', t.submitH2);
     setHtml('submitLede', t.submitLede);
-    setText('submitSeparateNote', t.submitSeparateNote);
     setText('checklistLegend', t.checklistLegend);
     setText('submitFormEyebrow', t.submitFormEyebrow);
     setText('reqPanelTitle', t.reqPanelTitle);
@@ -1306,23 +1165,13 @@
 
     setText('footerLine1', t.footerLine1);
     setText('footerLine2', t.footerLine2);
-
-    /* who-registers list */
-    var whoList = document.getElementById('regWhoList');
-    whoList.innerHTML = '';
-    [t.regWho1, t.regWho2, t.regWho3].forEach(function(txt){ whoList.appendChild(el('li',{},[txt])); });
-
-    /* registration deadline note (only shows a date if the organizer set one) */
-    setText('regDeadlineNoteText', REGISTRATION_DEADLINE ? t.regDeadlineSet(fmtDate(REGISTRATION_DEADLINE)) : t.regDeadlineOpen);
-
-    /* config-not-ready banner + submit button state */
-    var configured = isRegistrationConfigured();
-    document.getElementById('regConfigNotice').hidden = configured;
-    document.getElementById('regSubmitBtn').textContent = t.regSubmitBtn;
   }
 
-  /* ---------------- RENDER: DATA-DRIVEN LISTS ---------------- */
-  function renderLetterhead(){ document.getElementById('letterheadShort').textContent = I18N[currentLang].letterhead; }
+  /* ---------------- RENDER: DATA-DRIVEN LISTS (rebuilt on language switch) ---------------- */
+  function renderLetterhead(){
+    var lh = document.getElementById('letterheadShort');
+    lh.textContent = I18N[currentLang].letterhead;
+  }
 
   function renderOrgs(){
     var orgFull = document.getElementById('orgListFull');
@@ -1334,11 +1183,10 @@
     var cg = document.getElementById('committeeGrid');
     cg.innerHTML = '';
     COMMITTEE.forEach(function(p){
-      var d = p[currentLang];
+      var pair = p[currentLang];
       cg.appendChild(el('div',{class:'person'},[
-        el('div',{class:'p-role'},[d.role]),
-        el('div',{class:'p-name'},[d.name]),
-        el('div',{class:'p-aff'},[d.aff])
+        el('div',{class:'p-name'},[pair[0]]),
+        el('div',{class:'p-role'},[pair[1]])
       ]));
     });
   }
@@ -1350,10 +1198,14 @@
     var label = I18N[currentLang].sectionLabel;
     SECTIONS.forEach(function(s){
       var d = s[currentLang];
-      sg.appendChild(el('div',{class:'card section-card'},[
-        el('div',{class:'sc-head'},[ el('span',{class:'sc-num'},[label+' '+s.n]), el('h3',{},[d.title]) ]),
-        el('p',{},[d.text])
-      ]));
+      var card = el('div',{class:'card section-card'},[
+        el('div',{class:'sc-head'},[
+          el('span',{class:'sc-num'},[label+' '+s.n]),
+          el('h3',{},[d.title])
+        ]),
+        el('ul',{},d.items.map(function(it){ return el('li',{},[it]); }))
+      ]);
+      sg.appendChild(card);
       miniList.appendChild(el('li',{},[d.title]));
     });
   }
@@ -1366,10 +1218,10 @@
       var lines = [
         el('div',{class:'role'},[d.role]),
         el('div',{class:'name'},[d.name]),
-        el('div',{class:'aff'},[d.aff])
+        el('div',{class:'aff'},[d.aff]),
+        el('div',{class:'cline'},['✉ ', el('a',{href:'mailto:'+c.email, class:'mono'},[c.email])])
       ];
-      if(c.email) lines.push(el('div',{class:'cline'},['вњ‰ ', el('a',{href:'mailto:'+c.email, class:'mono'},[c.email])]));
-      if(c.phone) lines.push(el('div',{class:'cline'},['вЋ ', el('span',{class:'mono'},[c.phone])]));
+      if(c.phone) lines.push(el('div',{class:'cline'},['☎ ', el('span',{class:'mono'},[c.phone])]));
       cgrid.appendChild(el('div',{class:'card contact-card'}, lines));
     });
   }
@@ -1393,7 +1245,7 @@
       }
       var countdown = '';
       if(ref && NOW <= ref){
-        countdown = currentLang === 'uk' ? ('С‡РµСЂРµР· ' + daysBetween(NOW, ref) + ' РґРЅ.') : ('in ' + daysBetween(NOW, ref) + ' days');
+        countdown = currentLang === 'uk' ? ('через ' + daysBetween(NOW, ref) + ' дн.') : ('in ' + daysBetween(NOW, ref) + ' days');
       }
       tl.appendChild(el('li',{class:cls},[
         el('div',{class:'tl-date'},[d.date]),
@@ -1417,24 +1269,19 @@
     }
   }
 
-  /* ---------------- CHECKLIST (self-check, remembered per browser) ---------------- */
+  /* ---------------- CHECKLIST (self-check) — built once, labels re-lang'd in place ---------------- */
   var clWrap = document.getElementById('checklistWrap');
   var clInputs = [];
   var clGroupHeaders = [];
   var clItemLabels = [];
-  var clSaved = {};
-  try{ clSaved = JSON.parse(safeGet('nntiz-checklist') || '{}') || {}; }catch(e){ clSaved = {}; }
-
   CHECKLIST.forEach(function(g, gi){
     var group = el('div',{class:'cl-group'});
     var h4 = el('h4',{},[g.uk.group]);
     clGroupHeaders.push({ el:h4, data:g });
     group.appendChild(h4);
     g.uk.items.forEach(function(text, idx){
-      var key = gi+'_'+idx;
-      var cb = el('input',{type:'checkbox', id:'cl_'+key});
-      if(clSaved[key]) cb.checked = true;
-      clInputs.push({cb:cb, key:key});
+      var cb = el('input',{type:'checkbox', id:'cl_'+gi+'_'+idx});
+      clInputs.push(cb);
       var textSpan = el('span',{},[text]);
       clItemLabels.push({ el:textSpan, data:g, idx:idx });
       var label = el('label',{class:'cl-item', for:cb.id},[]);
@@ -1448,161 +1295,50 @@
   var clCount = document.getElementById('clCount');
   function updateChecklistCount(){
     var total = clInputs.length;
-    var checked = clInputs.filter(function(c){ return c.cb.checked; }).length;
+    var checked = clInputs.filter(function(c){ return c.checked; }).length;
     clBar.style.width = (total ? (checked/total*100) : 0) + '%';
     clCount.textContent = I18N[currentLang].clCountTpl(checked, total);
-    var state = {};
-    clInputs.forEach(function(c){ if(c.cb.checked) state[c.key] = true; });
-    safeSet('nntiz-checklist', JSON.stringify(state));
   }
-  clInputs.forEach(function(c){ c.cb.addEventListener('change', updateChecklistCount); });
+  clInputs.forEach(function(c){ c.addEventListener('change', updateChecklistCount); });
   function renderChecklistLang(){
     clGroupHeaders.forEach(function(h){ h.el.textContent = h.data[currentLang].group; });
     clItemLabels.forEach(function(it){ it.el.textContent = it.data[currentLang].items[it.idx]; });
     updateChecklistCount();
   }
 
-  /* ---------------- REGISTRATION FORM: BUILD (once) ---------------- */
-  var regRadioGroups = {}; // key -> [{input, uk, en}]
-  function buildRadioGroup(containerId, name, options, groupKey, required){
-    var wrap = document.getElementById(containerId);
-    wrap.innerHTML = '';
-    regRadioGroups[groupKey] = [];
-    options.forEach(function(opt, i){
-      var attrs = {type:'radio', name:name, value:opt.value, id:name+'_'+i};
-      // HTML5: marking ONE radio in a name-group required is enough to require the whole group
-      if(required && i === 0) attrs.required = 'required';
-      var input = el('input', attrs);
-      var label = el('label',{},[]);
-      label.appendChild(input);
-      var span = el('span',{},[opt.uk]);
-      label.appendChild(span);
-      wrap.appendChild(label);
-      regRadioGroups[groupKey].push({ input:input, span:span, opt:opt });
-    });
-  }
-  buildRadioGroup('regParticipationFormatRadios', 'reg_participationFormat', PARTICIPATION_FORMAT_OPTIONS, 'participationFormat', true);
-  buildRadioGroup('regManuscriptRadios', 'reg_manuscript', YES_NO_OPTIONS, 'manuscript', true);
-
-  var trackSelect = document.getElementById('reg_track');
-  var trackPlaceholderOpt = el('option',{value:''},[]);
-  trackPlaceholderOpt.selected = true;
-  trackPlaceholderOpt.disabled = true;
-  trackPlaceholderOpt.hidden = true;
-  trackSelect.appendChild(trackPlaceholderOpt);
-  SECTIONS.forEach(function(s){
-    var opt = el('option',{value:s.n+'. '+s.uk.title+' ('+s.en.title+')'},[]); // confirmed format: "N. UK title (EN title)"
-    trackSelect.appendChild(opt);
-  });
-
-  var inviteSelect = document.getElementById('reg_invitation');
-  var invitePlaceholderOpt = el('option',{value:''},[]);
-  invitePlaceholderOpt.selected = true;
-  invitePlaceholderOpt.disabled = true;
-  invitePlaceholderOpt.hidden = true;
-  inviteSelect.appendChild(invitePlaceholderOpt);
-  var inviteOptEls = YES_NO_OPTIONS.map(function(opt){
-    var o = el('option',{value:opt.value},[]);
-    inviteSelect.appendChild(o);
-    return { el:o, opt:opt };
-  });
-
-  function renderRegistrationOptionsLang(){
-    Object.keys(regRadioGroups).forEach(function(key){
-      regRadioGroups[key].forEach(function(row){ row.span.textContent = row.opt[currentLang]; });
-    });
-    var t = I18N[currentLang];
-    trackPlaceholderOpt.textContent = t.regTrackPlaceholder;
-    SECTIONS.forEach(function(s, i){
-      trackSelect.options[i+1].textContent = (i+1) + '. ' + s[currentLang].title;
-    });
-    invitePlaceholderOpt.textContent = t.regInvitePlaceholder;
-    inviteOptEls.forEach(function(row){ row.el.textContent = row.opt[currentLang]; });
-  }
-
-  /* wire entry.NNNN names + form action once REGISTRATION_ENTRY_IDS / REGISTRATION_FORM_URL are filled in */
-  var regForm = document.getElementById('registrationForm');
-  var regHiddenFrame = document.getElementById('regHiddenFrame');
-  var regMsgEl = document.getElementById('regMsg');
-  var regSubmitFlag = false;
-
-  function applyEntryNames(){
-    document.getElementById('reg_fullName').name = REGISTRATION_ENTRY_IDS.fullName || '';
-    document.getElementById('reg_email').name = REGISTRATION_ENTRY_IDS.email || '';
-    document.getElementById('reg_phone').name = REGISTRATION_ENTRY_IDS.phone || '';
-    document.getElementById('reg_country').name = REGISTRATION_ENTRY_IDS.country || '';
-    document.getElementById('reg_institution').name = REGISTRATION_ENTRY_IDS.institution || '';
-    document.getElementById('reg_degreePosition').name = REGISTRATION_ENTRY_IDS.degreePosition || '';
-    regRadioGroups.participationFormat.forEach(function(r){ r.input.name = REGISTRATION_ENTRY_IDS.participationFormat || 'reg_participationFormat'; });
-    regRadioGroups.manuscript.forEach(function(r){ r.input.name = REGISTRATION_ENTRY_IDS.manuscript || 'reg_manuscript'; });
-    trackSelect.name = REGISTRATION_ENTRY_IDS.track || '';
-    inviteSelect.name = REGISTRATION_ENTRY_IDS.invitation || '';
-    document.getElementById('reg_comments').name = REGISTRATION_ENTRY_IDS.comments || '';
-    var consent = document.getElementById('reg_consent');
-    consent.name = REGISTRATION_ENTRY_IDS.consent || '';
-    consent.value = '"I consent to the processing of my personal data in accordance with the Law of Ukraine \'On Personal Data Protection\' for the purposes of organizing and holding the conference." / В«Р”Р°СЋ Р·РіРѕРґСѓ РЅР° РѕР±СЂРѕР±РєСѓ РјРѕС—С… РѕСЃРѕР±РёСЃС‚РёС… РґР°РЅРёС… РІС–РґРїРѕРІС–РґРЅРѕ РґРѕ Р—Р°РєРѕРЅСѓ РЈРєСЂР°С—РЅРё "РџСЂРѕ Р·Р°С…РёСЃС‚ РїРµСЂСЃРѕРЅР°Р»СЊРЅРёС… РґР°РЅРёС…" Р· РјРµС‚РѕСЋ РѕСЂРіР°РЅС–Р·Р°С†С–С— С‚Р° РїСЂРѕРІРµРґРµРЅРЅСЏ РєРѕРЅС„РµСЂРµРЅС†С–С—.В»'; // confirmed exact checkbox option text
-    regForm.action = toFormResponseUrl(REGISTRATION_FORM_URL);
-  }
-  applyEntryNames();
-
-  function showRegMsg(kind, text){
-    regMsgEl.className = 'msg show ' + kind;
-    regMsgEl.textContent = text;
-  }
-  function hideRegMsg(){ regMsgEl.className = 'msg'; regMsgEl.textContent = ''; }
-
-  var regThankYou = document.getElementById('regThankYou');
-  function showRegThankYou(){
-    regForm.hidden = true;
-    regThankYou.hidden = false;
-    regThankYou.scrollIntoView({ block:'start', behavior:'smooth' });
-  }
-
-  /* the browser's native constraint validation (required / type=email / pattern) blocks the
-     'submit' event and shows its own accessible error bubbles before this handler ever runs вЂ”
-     so by the time we get here, every required field is present and correctly formatted. */
-  regForm.addEventListener('submit', function(e){
-    hideRegMsg();
-    if(!isRegistrationConfigured()){
-      e.preventDefault();
-      showRegMsg('err', I18N[currentLang].regNotConfigured);
-      return;
+  /* ---------------- GOOGLE EMBEDS — iframe built once, only link/placeholder text re-lang'd ---------------- */
+  function toEmbedUrl(url){
+    if(url.indexOf('docs.google.com/forms') !== -1 || url.indexOf('forms.gle') !== -1){
+      return url + (url.indexOf('?') === -1 ? '?embedded=true' : '&embedded=true');
     }
-    regSubmitFlag = true;
-  });
-
-  regHiddenFrame.addEventListener('load', function(){
-    if(regSubmitFlag){
-      regSubmitFlag = false;
-      showRegThankYou();
-    }
-  });
-
-  /* ---------------- GOOGLE FORM EMBEDS: manuscript submission / revision ---------------- */
+    return url;
+  }
   var embedDefs = [
-    { containerId:'gform-manuscript', url:SUBMIT_FORM_URL, placeholderKey:'embedPlaceholderManuscript', varName:'SUBMIT_FORM_URL', height:'900' },
-    { containerId:'gform-revision', url:REVISION_FORM_URL, placeholderKey:'embedPlaceholderRevision', varName:'REVISION_FORM_URL', height:'760' }
+    { containerId:'gform-register', url:CONFIG.formRegister, varName:'CONFIG.formRegister', placeholderKey:'embedPlaceholderRegister', btnClass:'btn-primary', height:'900' },
+    { containerId:'gform-manuscript', url:CONFIG.formManuscript, varName:'CONFIG.formManuscript', placeholderKey:'embedPlaceholderManuscript', btnClass:'btn-gold', height:'900' },
+    { containerId:'gform-revision', url:CONFIG.formRevision, varName:'CONFIG.formRevision', placeholderKey:'embedPlaceholderRevision', btnClass:'btn-primary', height:'760' }
   ];
-  var embedLinkEls = {};  // containerId -> <a> (when a URL is configured)
-  var embedEmptyEls = {}; // containerId -> {msgEl, noteEl, def} (when not configured)
+  var embedLinkEls = {};   // containerId -> <a> element (when url present)
+  var embedEmptyEls = {};  // containerId -> {msgEl, noteEl, def} (when url absent)
+
   function buildEmbeds(){
     embedDefs.forEach(function(def){
       var host = document.getElementById(def.containerId);
       if(!host) return;
       host.innerHTML = '';
       if(!def.url){
-        var msgEl = el('div',{class:'es-msg'},['']);
-        var noteEl = el('div',{class:'mono es-note'},['']);
+        var msgEl = el('div',{style:'margin-bottom:6px;'},['']);
+        var noteEl = el('div',{class:'mono', style:'font-size:12px;'},['']);
         host.appendChild(el('div',{class:'empty-state'},[msgEl, noteEl]));
         embedEmptyEls[def.containerId] = { msgEl:msgEl, noteEl:noteEl, def:def };
         return;
       }
       host.appendChild(el('iframe',{
-        class:'gform-frame', src:toEmbedUrl(def.url), height:def.height,
-        loading:'lazy', title:def.containerId
+        src: toEmbedUrl(def.url), width:'100%', height: def.height, frameborder:'0',
+        marginheight:'0', marginwidth:'0', loading:'lazy', style:'border:0; border-radius:8px; display:block;'
       },[]));
-      var link = el('a',{class:'btn btn-ghost btn-sm', href:def.url, target:'_blank', rel:'noopener', style:'margin-top:12px;'},['']);
-      host.appendChild(link);
+      var link = el('a',{class:'btn '+def.btnClass+' btn-sm', href:def.url, target:'_blank', rel:'noopener'},['']);
+      host.appendChild(el('div',{style:'margin-top:14px;'},[link]));
       embedLinkEls[def.containerId] = link;
     });
   }
@@ -1615,13 +1351,11 @@
       rec.noteEl.textContent = t.embedVarNote(rec.def.varName);
     });
   }
-  buildEmbeds();
 
   /* ---------------- LANGUAGE SWITCH ---------------- */
   var langBtnEl = document.getElementById('langToggle');
   function applyLang(lang){
     currentLang = (lang === 'en') ? 'en' : 'uk';
-    safeSet('nntiz-lang', currentLang);
     renderStaticText();
     renderLetterhead();
     renderOrgs();
@@ -1631,11 +1365,15 @@
     renderReqList();
     renderTimeline();
     renderChecklistLang();
-    renderRegistrationOptionsLang();
     renderEmbedsLang();
   }
   langBtnEl.addEventListener('click', function(){
     applyLang(currentLang === 'uk' ? 'en' : 'uk');
   });
 
-  
+  /* ---------------- INIT ---------------- */
+  buildEmbeds();
+  applyLang(LANG_DEFAULT);
+
+})();
+</script>
